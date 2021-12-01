@@ -1,0 +1,346 @@
+/*General*/
+
+* {
+	background-color: #F1ECE1;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+a{
+    background-color: transparent;
+
+}
+a:hover {
+	color: #AD82F8;
+}
+
+a:visited {
+	color: black;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+
+/*h1*/
+
+h1 {
+	position: absolute;
+	top: 15px;
+	left: 32%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+}
+
+.forma-title {
+	width: 500px;
+	height: 90px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 30%;
+}
+
+
+/*Frase*/
+
+.frase {
+	margin-top: 20px;
+	font-size: 170px;
+	flex-direction: column;
+	float: top;
+	margin-bottom: 0;
+	line-height: 100px;
+}
+
+.frase2 {
+	margin-top: 30px;
+	font-size: 170px;
+	flex-direction: column;
+	float: top;
+	margin-bottom: 20px;
+}
+
+.tiempo {
+	margin-top: 50px;
+	font-size: 170px;
+	flex-direction: column;
+	margin-bottom: 0;
+	color: #F09254;
+}
+
+.flecha {
+	display: block;
+	margin: auto;
+	width: 60px;
+}
+
+
+/*h2*/
+
+h2 {
+	font-size: 45px;
+	color: #F09254;
+	text-align: center;
+}
+
+.h2-p {
+	width: 60%;
+	float: left;
+	font-size: 25px;
+	line-height: auto;
+	text-align: justify;
+}
+
+.history-div {
+	margin-top: 70px;
+}
+
+.img-history {
+	width: 40%;
+	margin-top: 100px;
+	max-width: 400px;
+	display: block;
+	margin: 7em auto;
+}
+
+
+/* BOTONES*/
+
+.buttons-container {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	float: right;
+	margin-top: 20px;
+}
+
+.button-whitepaper {
+	justify-content: center;
+	margin-top: 10px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+	transform: rotate(350deg);
+	color: black;
+	outline: none;
+	text-decoration: none;
+	border-radius: 10px;
+	border: solid black 1px;
+}
+
+.button-roadmap {
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	transform: rotate(350deg);
+	margin-right: 100px;
+	margin-bottom: 30px;
+	outline: none;
+	text-decoration: none;
+	border-radius: 10px;
+	border: solid black 2px;
+}
+
+
+/*TNYR*/
+
+.tnyr {
+	margin-top: 40%;
+}
+
+.tnyr-logo {
+	width: 90px;
+	margin-left: 32%;
+}
+
+.tnyr-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tnyr-title {
+	margin-top: 0;
+	font-size: 35px;
+	color: #F09254;
+}
+
+.tnyr-logo-info {
+	font-size: 40px;
+	margin-top: 50px;
+}
+
+
+/*Tokenomics*/
+
+.tokenomics {
+	margin-bottom: 100px;
+}
+
+.tokenomics-container {
+	margin-top: 10%;
+}
+
+.tokenomics-title {
+	font-size: 35px;
+	margin-top: 10%;
+	text-align: center;
+	color: #F09254;
+}
+
+.tokenomics-grafico-container {
+	margin-right: 0;
+	margin-left: 15%;
+}
+
+.tokenomics-grafico {
+	background-color: transparent;
+	width: 35%;
+	float: left;
+}
+
+.tokenomics-info-container {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.tokenomics-info {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+/*OUR TEAM*/
+
+.team-h4-container {
+	padding-top: 30px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.team-h4 {
+	font-size: 40px;
+	text-align: center;
+	color: #F09254;
+}
+
+.member-team-0 {
+	display: inline-flex;
+	margin-top: 5%;
+	margin-left: 15rem;
+	text-align: center;
+	border: solid 1px;
+	border-radius: 10px;
+}
+
+.member-team-1 {
+	display: inline-flex;
+	margin-top: 1%;
+	margin-left: 5rem;
+	text-align: center;
+	border: solid 1px;
+	border-radius: 10px;
+}
+
+.member-team-2 {
+	display: inline-flex;
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 5rem;
+	border: solid 1px;
+	border-radius: 10px;
+}
+
+.member-text-container {
+	margin-left: 10rem;
+	display: inline-flex;
+}
+
+.member-text-0 {
+	margin-left: 2rem;
+	background-color: transparent;
+	text-align: center;
+}
+
+.member-text-1 {
+	margin-left: 6.5rem;
+	background-color: transparent;
+	text-align: center;
+}
+
+.member-text-2 {
+	margin-left: 7rem;
+	background-color: transparent;
+	text-align: center;
+}
+
+.img-team-container {
+	display: inline-flex;
+	margin-left: 0;
+	border-radius: 10px;
+}
+
+.img-team {
+	min-width: 200px;
+	width: 200px;
+	max-width: 200px;
+	display: block;
+	margin-left: 0;
+	border-radius: 10px;
+	height: 350px;
+}
+
+.name-team-container {
+	display: inline-flex;
+	margin-left: 5rem;
+}
+
+.name-team {
+	font-family: Bookman, URW Bookman L, serif;
+	font-size: 20px;
+}
+
+.info-team-container {
+	margin-left: 5rem;
+	margin-bottom: 10rem;
+}
+
+.info-team {
+	font-family: Bradley Hand, cursive;
+}
+
+
+/*imagenes*/
+
+.img-container {
+	display: inline-flex;
+	color: aqua;
+	margin-top: 2rem;
+}
+
+.img-red {
+	width: 45px;
+	width: 45px;
+	margin: 10px;
+	background-color: transparent;
+}
+
+.img-red-container {
+	background-color: #a01208;
+}
+
+.footer {
+	background-color: #a01208;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.list-footer-li{
+
+	outline: none;
+	text-decoration: none;
+}
