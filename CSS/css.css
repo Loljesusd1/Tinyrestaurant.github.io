@@ -30,7 +30,7 @@ a:visited {
 
 h1 {
 	position: absolute;
-	top: 25px;
+	top: 38px;
 	left: 32%;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 40px;
@@ -42,6 +42,7 @@ h1 {
 	position: relative;
 	overflow: hidden;
 	margin-left: 30%;
+	margin-top: 5px;
 }
 
 
@@ -71,7 +72,9 @@ h1 {
 	margin-bottom: 0;
 	color: #F09254;
 }
-
+.frase-inicial{
+	margin-left: 10px;
+}
 .flecha {
 	display: block;
 	margin: auto;
@@ -81,30 +84,39 @@ h1 {
 
 /*h2*/
 
-h2 {
+.history-title{
 	font-size: 45px;
 	color: #F09254;
 	text-align: center;
 }
+.history-title-container{
+margin-bottom: 60px;
 
+
+}
 .h2-p {
-	width: 60%;
+	width: 55%;
 	float: left;
 	font-size: 25px;
 	line-height: auto;
 	text-align: justify;
 }
+.h2-p-container{
+margin-left: 10px;
 
+
+}
 .history-div {
 	margin-top: 70px;
 }
 
 .img-history {
 	width: 40%;
-	margin-top: 100px;
+	margin-top: 80px;
 	max-width: 400px;
 	display: block;
-	margin: 7em auto;
+	margin: 6em auto;
+	margin-bottom: 70px;
 }
 
 
@@ -121,11 +133,10 @@ h2 {
 .button-whitepaper {
 	justify-content: center;
 	margin-top: 10px;
-	margin-right: 100px;
+	margin-right: 180px;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: 30px;
-	transform: rotate(350deg);
 	color: black;
 	outline: none;
 	text-decoration: none;
@@ -137,9 +148,9 @@ h2 {
 	justify-content: center;
 	text-align: center;
 	font-size: 30px;
-	transform: rotate(350deg);
-	margin-right: 100px;
+	margin-right: 180px;
 	margin-bottom: 30px;
+	color: black;
 	outline: none;
 	text-decoration: none;
 	border-radius: 10px;
