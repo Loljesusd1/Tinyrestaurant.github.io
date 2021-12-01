@@ -75,7 +75,7 @@ h1 {
 .frase-inicial{
 	margin-left: 10px;
 }
-.flecha {
+.flecha-0 {
 	display: block;
 	margin: auto;
 	width: 60px;
@@ -156,20 +156,19 @@ margin-left: 10px;
 	border-radius: 10px;
 	border: solid black 2px;
 }
-
+.flecha-1 {
+	display: block;
+	margin: auto;
+	width: 60px;
+}
 
 /*TNYR*/
 
 .tnyr {
-	margin-top: 40%;
+	margin-top: 20%;
 }
 
-.tnyr-logo {
-	width: 90px;
-	margin-left: 32%;
-}
-
-.tnyr-container {
+.tnyr-title-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -177,29 +176,47 @@ margin-left: 10px;
 
 .tnyr-title {
 	margin-top: 0;
-	font-size: 35px;
+	font-size: 45px;
 	color: #F09254;
 }
+.tnyr-logo-container{
 
-.tnyr-logo-info {
-	font-size: 40px;
-	margin-top: 50px;
+margin-top: 80px;
+}
+.tnyr-logo {
+	width: 90px;
+	margin-left: 32%;
+	float: left;
+}
+
+
+.tnyr-info-container{
+	padding-top:35px;
+	padding-left: 15px;
+	padding-bottom: 50px;
+	display: inline-table;
+
+}
+.tnyr-info {
+	font-size: 35px;
+
+
 }
 
 
 /*Tokenomics*/
 
 .tokenomics {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .tokenomics-container {
-	margin-top: 10%;
+	margin-top: 100px;
 }
 
 .tokenomics-title {
-	font-size: 35px;
-	margin-top: 10%;
+	font-size: 45px;
+	margin-top: 5%;
 	text-align: center;
 	color: #F09254;
 }
@@ -224,7 +241,13 @@ margin-left: 10px;
 	text-align: center;
 	margin-top: 50px;
 }
-
+.flecha-2 {
+	display: block;
+	margin: auto;
+	width: 50px;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
 
 /*OUR TEAM*/
 
@@ -267,11 +290,18 @@ margin-left: 10px;
 	border-radius: 10px;
 }
 
-.member-text-container {
+.member-text-container-0 {
 	margin-left: 10rem;
 	display: inline-flex;
 }
 
+.member-text-container-1 {
+	display: inline-flex;
+}
+
+.member-text-container-2 {
+	display: inline-flex;
+}
 .member-text-0 {
 	margin-left: 2rem;
 	background-color: transparent;
