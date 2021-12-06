@@ -33,7 +33,7 @@ a:visited {
 
 h1 {
 	position: absolute;
-	top: 8%;
+	top: 5%;
 	left: 32%;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 250%;
@@ -46,7 +46,8 @@ h1 {
 
 .forma-title {
 	width: 38.6%;
-	height: auto;
+
+	height: 90px;
 	position: relative;
 	overflow: hidden;
 	margin-left: 30%;
@@ -86,7 +87,7 @@ h1 {
 .flecha-0 {
 	display: block;
 	margin: auto;
-	width: 7%;
+	width: 4%;
 	height: auto;
 }
 
@@ -104,7 +105,7 @@ margin-bottom: 60px;
 
 }
 .h2-p {
-	width: 55%;
+	width: 54%;
 	float: left;
 	font-size: 25px;
 	line-height: auto;
@@ -168,7 +169,7 @@ margin-left: 50px;
 .flecha-1 {
 	display: block;
 	margin: auto;
-	width: 7%;
+	width: 4%;
 	height: auto;
 	margin-top: 30px;
 }
@@ -258,7 +259,7 @@ margin-top: 80px;
 .flecha-2 {
 	display: block;
 	margin: auto;
-	width: 7%;
+	width: 4%;
 	height: auto;
 	margin-top: 0;
 	margin-bottom: 50px;
