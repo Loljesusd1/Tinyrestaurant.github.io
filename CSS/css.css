@@ -8,6 +8,7 @@
 	  
 }
 
+
 html {
 	scroll-behavior: smooth;
 }
@@ -32,15 +33,20 @@ a:visited {
 
 h1 {
 	position: absolute;
-	top: 38px;
-	left: 31%;
+	top: 8%;
+	left: 32%;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 40px;
+	font-size: 250%;
+	background-color: transparent;
+	height: auto;
+
 }
 
+
+
 .forma-title {
-	width: 500px;
-	height: 90px;
+	width: 38.6%;
+	height: auto;
 	position: relative;
 	overflow: hidden;
 	margin-left: 30%;
@@ -50,9 +56,9 @@ h1 {
 
 /*Frase*/
 
-.frase {
+.frase { 
 	margin-top: 20px;
-	font-size: 170px;
+	font-size: 1000%;
 	flex-direction: column;
 	float: top;
 	margin-bottom: 0;
@@ -80,7 +86,8 @@ h1 {
 .flecha-0 {
 	display: block;
 	margin: auto;
-	width: 60px;
+	width: 7%;
+	height: auto;
 }
 
 
@@ -116,6 +123,7 @@ margin-left: 50px;
 	width: 40%;
 	margin-top: 80px;
 	max-width: 400px;
+	height: auto;
 	display: block;
 	margin: 6em auto;
 	margin-bottom: 70px;
@@ -160,7 +168,8 @@ margin-left: 50px;
 .flecha-1 {
 	display: block;
 	margin: auto;
-	width: 60px;
+	width: 7%;
+	height: auto;
 	margin-top: 30px;
 }
 
@@ -187,7 +196,8 @@ margin-left: 50px;
 margin-top: 80px;
 }
 .tnyr-logo {
-	width: 90px;
+	width: 10%;
+	height: auto;
 	margin-left: 34%;
 	float: left;
 }
@@ -248,7 +258,8 @@ margin-top: 80px;
 .flecha-2 {
 	display: block;
 	margin: auto;
-	width: 50px;
+	width: 7%;
+	height: auto;
 	margin-top: 0;
 	margin-bottom: 50px;
 }
@@ -328,12 +339,13 @@ margin-top: 80px;
 	display: inline-flex;
 	margin-left: 0;
 	border-radius: 10px;
+	width: 30%;
+	height: auto;
 }
 
 .img-team {
-	min-width: 200px;
-	width: 200px;
-	max-width: 200px;
+	width: auto;
+	height: auto;
 	display: block;
 	margin-left: 0;
 	border-radius: 10px;
