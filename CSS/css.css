@@ -33,32 +33,34 @@ a:visited {
 
 h1 {
 	position: absolute;
-	top: 5%;
 	left: 32%;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 250%;
 	background-color: transparent;
 	height: auto;
+	z-index: -1;
 
 }
 
 
 
 .forma-title {
-	width: 38.6%;
-
-	height: 90px;
+	padding-top: 1%;
+	width: 30%;
+	height: auto;
+	margin:auto;
+	display: block;
+	background-color: transparent;
 	position: relative;
 	overflow: hidden;
-	margin-left: 30%;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 
 /*Frase*/
 
 .frase { 
-	margin-top: 20px;
+	margin-top: 0;
 	font-size: 1000%;
 	flex-direction: column;
 	float: top;
@@ -67,19 +69,18 @@ h1 {
 }
 
 .frase2 {
-	margin-top: 30px;
-	font-size: 170px;
+	font-size: 1000%;
+	margin-bottom: 3%;
 	flex-direction: column;
-	float: top;
-	margin-bottom: 20px;
+	padding-top: 0;
 }
 
 .tiempo {
-	margin-top: 50px;
-	font-size: 170px;
+	margin-top: 2%;
+	font-size: 1000%;
 	flex-direction: column;
 	margin-bottom: 0;
-	color: #F09254;
+	color:	#a01208;
 }
 .frase-inicial{
 	margin-left: 10px;
@@ -100,7 +101,8 @@ h1 {
 	text-align: center;
 }
 .history-title-container{
-margin-bottom: 60px;
+	margin-bottom: 8%;
+	margin-top: 5%;
 
 
 }
@@ -112,21 +114,20 @@ margin-bottom: 60px;
 	text-align: justify;
 }
 .h2-p-container{
-margin-left: 50px;
+	margin-left: 50px;
 
 
 }
 .history-div {
-	margin-top: 70px;
+	margin-top: 100px;
 }
 
 .img-history {
 	width: 40%;
-	margin-top: 80px;
 	max-width: 400px;
 	height: auto;
 	display: block;
-	margin: 6em auto;
+	margin: 4em auto;
 	margin-bottom: 70px;
 }
 
@@ -138,6 +139,11 @@ margin-left: 50px;
 	flex-direction: column;
 	margin-top: 20px;
 	padding-left: 150px;
+	width: 45%;
+	height: auto;
+	position: relative;
+	left: 55%;
+	
 }
 
 .button-whitepaper {
@@ -151,7 +157,9 @@ margin-left: 50px;
 	outline: none;
 	text-decoration: none;
 	border-radius: 10px;
-	border: solid black 1px;
+	border: solid black 2px;
+	border­radius: 100%;
+	overflow: hidden;
 }
 
 .button-roadmap {
@@ -165,13 +173,15 @@ margin-left: 50px;
 	text-decoration: none;
 	border-radius: 10px;
 	border: solid black 2px;
+	border­radius: 100%;
+	overflow: hidden;
 }
 .flecha-1 {
 	display: block;
 	margin: auto;
 	width: 4%;
 	height: auto;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 /*TNYR*/
@@ -225,12 +235,11 @@ margin-top: 80px;
 }
 
 .tokenomics-container {
-	margin-top: 100px;
+	margin-top: 2%;
 }
 
 .tokenomics-title {
 	font-size: 45px;
-	margin-top: 5%;
 	text-align: center;
 	color: #F09254;
 }
@@ -238,13 +247,16 @@ margin-top: 80px;
 .tokenomics-grafico-container {
 	margin-right: 0;
 	margin-left: 15%;
+	
+	margin: black solid 1px;
 }
 
 .tokenomics-grafico {
 	background-color: transparent;
-	width: 35%;
+	width: 30%;
 	float: left;
 	margin-left: 50px;
+	margin: black solid 1px;
 }
 
 .tokenomics-info-container {
@@ -279,10 +291,17 @@ margin-top: 80px;
 	color: #F09254;
 }
 
+.full-team{
+
+width: 100%;
+height: auto;
+
+}
+
 .member-team-0 {
 	display: inline-flex;
 	margin-top: 5%;
-	margin-left: 15rem;
+	margin-left: 10rem;
 	text-align: center;
 	border: solid 1px;
 	border-radius: 10px;
@@ -307,7 +326,6 @@ margin-top: 80px;
 }
 
 .member-text-container-0 {
-	margin-left: 10rem;
 	display: inline-flex;
 }
 
@@ -319,19 +337,16 @@ margin-top: 80px;
 	display: inline-flex;
 }
 .member-text-0 {
-	margin-left: 2rem;
 	background-color: transparent;
 	text-align: center;
 }
 
 .member-text-1 {
-	margin-left: 6.5rem;
 	background-color: transparent;
 	text-align: center;
 }
 
 .member-text-2 {
-	margin-left: 7rem;
 	background-color: transparent;
 	text-align: center;
 }
@@ -355,7 +370,6 @@ margin-top: 80px;
 
 .name-team-container {
 	display: inline-flex;
-	margin-left: 5rem;
 }
 
 .name-team {
@@ -364,7 +378,6 @@ margin-top: 80px;
 }
 
 .info-team-container {
-	margin-left: 5rem;
 	margin-bottom: 10rem;
 }
 
