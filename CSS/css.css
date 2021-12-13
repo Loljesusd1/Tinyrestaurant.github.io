@@ -349,6 +349,26 @@ height: auto;
 	
 	align-content: center;
 }
+.member-team-3 {
+	display: inline-flex;
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 6rem;
+	border: solid 1px;
+	border-radius: 10px;
+	
+	align-content: center;
+}
+.member-team-4 {
+	display: inline-flex;
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 6rem;
+	border: solid 1px;
+	border-radius: 10px;
+	
+	align-content: center;
+}
 
 .member-text-container-0 {
 	display: inline-flex;
@@ -370,6 +390,20 @@ height: auto;
 	top:25px;
 	right: 170px;
 }
+
+.member-text-container-3 {
+	display: inline-flex;
+	position: relative;
+	top:25px;
+	right: 250px;
+}
+
+.member-text-container-4 {
+	display: inline-flex;
+	position: relative;
+	top:25px;
+	right: 250px;
+}
 .member-text-0 {
 	background-color: transparent;
 	text-align: center;
@@ -381,6 +415,14 @@ height: auto;
 }
 
 .member-text-2 {
+	background-color: transparent;
+	text-align: center;
+}
+.member-text-3 {
+	background-color: transparent;
+	text-align: center;
+}
+.member-text-4 {
 	background-color: transparent;
 	text-align: center;
 }
@@ -412,7 +454,7 @@ height: auto;
 }
 
 .info-team-container {
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 }
 
 .info-team {
