@@ -227,7 +227,10 @@ margin-top: 30px;
 
 }
 
-
+.rastreador{
+	font-size: 150%;
+	margin: auto;
+}
 /*Tokenomics*/
 
 .tokenomics {
