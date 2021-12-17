@@ -15,6 +15,7 @@ html {
 }
 a{
     background-color: transparent;
+	color: black;
 
 }
 a:hover {
@@ -206,6 +207,7 @@ h1 {
 	margin-top: 0;
 	font-size: 300%;
 	color: #F09254;
+	padding:3px;
 	text-align: center;
 }
 
@@ -221,7 +223,7 @@ h1 {
 
 .tnyr-info-container{
 	padding-top:35px;
-	padding-left: 21%;
+	padding-left: 15%;
 	padding-bottom: 30px;
 	display: inline-table;
 
@@ -285,6 +287,7 @@ table{
 	border-collapse: collapse;
 	margin-bottom: 20px;
 	width: 100%;
+	padding:5px;
 }
 caption{
 
@@ -324,7 +327,7 @@ font-size: 20px;
 
 
 .full-team{
-	margin-left: 25%;
+	margin-left: 20%;
 		}
 		.member-team {
 			display: inline-flex;
@@ -387,7 +390,7 @@ font-size: 20px;
 		
 
 .flecha-3 {
-	display: block;
+	display:none;
 	margin: 0 0 0 auto ;
 	padding-left: 20px;
 	width: 50px;
@@ -400,7 +403,7 @@ font-size: 20px;
 .img-container {
 	display: inline-flex;
 	background-color: #a01208;
-	margin-left:12% ;
+	margin-left:5% ;
 }
 
 .img-red {
@@ -418,6 +421,7 @@ font-size: 20px;
 	background-color: #a01208;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	width: 100%;
 }
 .list-footer-li{
 
