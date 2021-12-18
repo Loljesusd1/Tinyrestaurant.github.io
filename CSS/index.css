@@ -1291,7 +1291,7 @@ font-size: 20px;
 	/*General*/
 
 * {
-	background-color:#f5debe;
+	background-color: #f5debe;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -1394,7 +1394,7 @@ h1 {
 }
 .history-title-container{
 	margin-bottom: 8%;
-	margin-top: 5%;
+	margin-top: 7%;
 
 
 }
@@ -1406,7 +1406,6 @@ h1 {
 	text-align: justify;
 }
 .h2-p-container{
-	margin-left: 50px;
 
 
 }
@@ -1415,12 +1414,12 @@ h1 {
 }
 
 .img-history {
-	width: 40%;
-	max-width: 400px;
+	width: 30%;
 	height: auto;
-	display: block;
-	margin: auto;
+	padding-left: 180px;
+	margin:auto;
 	margin-bottom: 150px;
+	margin-left
 }
 
 
