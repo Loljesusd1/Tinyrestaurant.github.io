@@ -113,7 +113,7 @@ h1 {
 .h2-p {
 	width: 54%;
 	float: left;
-	font-size: 25px;
+	font-size: 20px;
 	line-height: auto;
 	text-align: justify;
 }
@@ -130,51 +130,31 @@ h1 {
 
 
 /* BOTONES*/
-.buttons-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px;
-	height: auto;
-	position: relative;
-	left: 15%;
+
+.buttons-container{
+	float: right;
 }
 
-.button-whitepaper {
-	width: 45%;
-	justify-content: center;
-	margin-top: 10px;
+.button-history {
+	width: 60%;
 	margin-right: 180px;
 	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
+	font-size: 25px;
 	border-radius: 10px;
 	border: solid black 2px;
 	overflow: hidden;
 }
 
-.button-roadmap {
-	width:45%;
-	justify-content: center;
-	text-align: center;
-	font-size: 30px;
-	margin-right: 180px;
-	margin-bottom: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
-	border-radius: 10px;
-	border: solid black 2px;
-	overflow: hidden;
-}
+
 .flecha-1 {
 	display: block;
 	margin: auto;
 	width: 4%;
 	height: auto;
-	margin-top: 0px;
+	margin-top: 60px;
+	content: "";
+  clear: both;
+  display: table;
 }
 
 /*TNYR*/
@@ -249,18 +229,16 @@ text-decoration: none;
 .tokenomics-grafico-container {
 	margin-top: 50px;
 	margin-right: 0;
-	margin-left: 15%;
+	margin-left: 5%;
 	
 	margin: black solid 1px;
 }
 
 .tokenomics-grafico {
 	background-color: transparent;
-	width: 25%;
+	width: 55%;
 	float: left;
-	margin-left: 50px;
 	margin: black solid 1px;
-	margin-right: 50px;
 }
 
 .tokenomics-info-container {
@@ -525,53 +503,31 @@ h1 {
 
 
 /* BOTONES*/
-.buttons-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px;
-	padding-left: 150px;
-	height: auto;
-	position: relative;
-	left: 42%;
-	
+
+.buttons-container{
+	float: right;
 }
 
-.button-whitepaper {
-	width: 40%;
-	justify-content: center;
-	margin-top: 10px;
+.button-history {
+	width: 60%;
 	margin-right: 180px;
 	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
+	font-size: 25px;
 	border-radius: 10px;
 	border: solid black 2px;
 	overflow: hidden;
 }
 
-.button-roadmap {
-	width:40%;
-	justify-content: center;
-	text-align: center;
-	font-size: 30px;
-	margin-right: 180px;
-	margin-bottom: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
-	border-radius: 10px;
-	border: solid black 2px;
-	overflow: hidden;
-}
+
 .flecha-1 {
 	display: block;
 	margin: auto;
 	width: 4%;
 	height: auto;
-	margin-top: 0px;
+	margin-top: 60px;
+	content: "";
+  clear: both;
+  display: table;
 }
 
 /*TNYR*/
@@ -902,69 +858,39 @@ h1 {
 }
 
 .img-history {
-	width: 60%;
-	position: relative;
+	width: 30%;
 	height: auto;
-	margin: 3em auto 0 20%;
-	
-}
-.img-jenny-container{display: none;
-}
-.img-jenny{display: none;
-}
-.img-tobias-container{display: none;
-}
-.img-tobias{display: none;
+	margin:auto 0 30px 100px;
+	margin-bottom: 50px;
 }
 
 
 /* BOTONES*/
 
-.buttons-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px;
-	height: auto;
-	margin-left:100px;
-	margin-right:100px;
+.buttons-container{
+	float: right;
 }
 
-.button-whitepaper {
-	padding: 5px;
-	justify-content: center;
-	margin-top: 10px;
+.button-history {
+	width: 60%;
+	margin-right: 180px;
 	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
+	font-size: 25px;
 	border-radius: 10px;
 	border: solid black 2px;
 	overflow: hidden;
-	width: 100%;
 }
 
-.button-roadmap {
-	padding: 5px;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
-	border-radius: 10px;
-	border: solid black 2px;
-	overflow: hidden;
-	width: 100%;
-}
+
 .flecha-1 {
 	display: block;
 	margin: auto;
-	width: 8%;
+	width: 4%;
 	height: auto;
+	margin-top: 60px;
+	content: "";
+  clear: both;
+  display: table;
 }
 
 /*TNYR*/
@@ -981,25 +907,26 @@ h1 {
 
 .tnyr-title {
 	margin-top: 0;
-	font-size: 350%;
+	font-size: 260%;
 	color: #F09254;
 	padding:3px;
 	text-align: center;
 }
 
 .tnyr-logo {
-	width: 25%;
+	width: 10%;
 	height: auto;
 	float: left;
-	margin-left:35%;
+	margin-left:22%;
 	margin-top: 20px;
 
 }
 
 
 .tnyr-info-container{
+	float: left;
 	padding-top:35px;
-	padding-left: 32%;
+	margin-left: 20px;
 	padding-bottom: 30px;
 	display: inline-table;
 
@@ -1016,6 +943,7 @@ h1 {
 	justify-content: center;
 	margin-bottom: 10%;
 	color: black;
+    clear: both;
 }
 /*Tokenomics*/
 
@@ -1030,7 +958,7 @@ h1 {
 }
 
 .tokenomics-title {
-	font-size: 350%;
+	font-size: 260%;
 	text-align: center;
 	color: #F09254;
 }
@@ -1119,7 +1047,7 @@ font-size: 20px;
 		
 	  }
 	  .img-team{
-		  width: 150px;
+		  width: 80%;
 		  height: 250px;
 		  align-content: center;
 		  border-radius: 10px;
@@ -1300,69 +1228,39 @@ h1 {
 }
 
 .img-history {
-	width: 60%;
-	position: relative;
+	width: 30%;
 	height: auto;
-	margin: 3em auto 0 20%;
-	
-}
-.img-jenny-container{display: none;
-}
-.img-jenny{display: none;
-}
-.img-tobias-container{display: none;
-}
-.img-tobias{display: none;
+	margin:auto 0 30px 100px;
+	margin-bottom: 50px;
 }
 
 
 /* BOTONES*/
 
-.buttons-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px;
-	height: auto;
-	margin-left:100px;
-	margin-right:100px;
+.buttons-container{
+	float: right;
 }
 
-.button-whitepaper {
-	padding: 5px;
-	justify-content: center;
-	margin-top: 10px;
+.button-history {
+	width: 60%;
+	margin-right: 180px;
 	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
+	font-size: 25px;
 	border-radius: 10px;
 	border: solid black 2px;
 	overflow: hidden;
-	width: 100%;
 }
 
-.button-roadmap {
-	padding: 5px;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
-	border-radius: 10px;
-	border: solid black 2px;
-	overflow: hidden;
-	width: 100%;
-}
+
 .flecha-1 {
 	display: block;
 	margin: auto;
-	width: 8%;
+	width: 4%;
 	height: auto;
+	margin-top: 60px;
+	content: "";
+  clear: both;
+  display: table;
 }
 
 /*TNYR*/
@@ -1518,8 +1416,8 @@ font-size: 20px;
 		
 	  }
 	  .img-team{
-		  width: 150px;
-		  height: 250px;
+		  width: 80%;
+		  height: 200px;
 		  align-content: center;
 		  border-radius: 10px;
 	  }
@@ -1697,72 +1595,39 @@ h1 {
 }
 
 .img-history {
-	width: 80%;
-	position: relative;
+	width: 30%;
 	height: auto;
-	margin: 4em auto 0 40px;
-	margin-bottom: 10px;
-	
-}
-.img-jenny-container{display: none;
-}
-.img-jenny{display: none;
-}
-.img-tobias-container{display: none;
-}
-.img-tobias{display: none;
+	margin:auto 0 30px 100px;
+	margin-bottom: 50px;
 }
 
 
 /* BOTONES*/
 
-.buttons-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 20px;
-	height: auto;
-	margin-left:10px;
-	margin-right:10px;
+.buttons-container{
+	float: right;
 }
 
-.button-whitepaper {
-	padding: 5px;
-	justify-content: center;
-	margin-top: 10px;
+.button-history {
+	width: 60%;
+	margin-right: 180px;
 	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
+	font-size: 25px;
 	border-radius: 10px;
 	border: solid black 2px;
 	overflow: hidden;
-	width: 100%;
 }
 
-.button-roadmap {
-	padding: 5px;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	outline: none;
-	text-decoration: none;
-	border-radius: 10px;
-	border: solid black 2px;
-	overflow: hidden;
-	width: 100%;
-}
+
 .flecha-1 {
 	display: block;
 	margin: auto;
 	width: 4%;
 	height: auto;
-	margin-top: 0px;
-	display: none;
+	margin-top: 60px;
+	content: "";
+  clear: both;
+  display: table;
 }
 
 /*TNYR*/
