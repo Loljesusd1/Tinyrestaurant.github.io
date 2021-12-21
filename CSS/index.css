@@ -177,7 +177,6 @@ h1 {
 .tnyr-logo-container{
 
 	margin: auto;
-	margin-top: 30px;
 }
 .tnyr-logo {
 	width: 8%;
@@ -227,7 +226,7 @@ text-decoration: none;
 }
 
 .tokenomics-grafico-container {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-right: 0;
 	margin-left: 5%;
 	
@@ -241,14 +240,9 @@ text-decoration: none;
 	margin: black solid 1px;
 }
 
-.tokenomics-info-container {
-	margin: 0 auto;
-	padding-bottom: 20px;
-}
-
 .tokenomics-info {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 table{
@@ -267,22 +261,23 @@ font-size: 15px;
 }
 
 .flecha-2 {
+	
+    position: relative;
+    bottom: 58px;
 	display: block;
 	margin: auto;
 	width: 4%;
 	height: auto;
 	margin-top: 10px;
-	margin-bottom: 50px;
 
 }
 
 /*OUR TEAM*/
 
 .team-h4-container {
-	padding-top: 30px;
 	padding-bottom: 0;
 	margin-bottom: 80px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .team-h4 {
@@ -548,7 +543,6 @@ h1 {
 .tnyr-logo-container{
 
 	margin: auto;
-margin-top: 30px;
 }
 .tnyr-logo {
 	width: 9%;
@@ -597,7 +591,7 @@ font-size: 150%;
 }
 
 .tokenomics-grafico-container {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-right: 0;
 	
 	margin: black solid 1px;
@@ -613,13 +607,12 @@ font-size: 150%;
 }
 
 .tokenomics-info-container {
-	margin: 0 auto;
-	padding-bottom: 20px;
+	margin-top:10px;;
 }
 
 .tokenomics-info {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 table{
@@ -639,11 +632,13 @@ font-size: 15px;
 }
 
 .flecha-2 {
+	
+	position: relative;
+	bottom: 60px;
 	display: block;
 	margin: auto;
 	width: 4%;
 	height: auto;
-	margin-top: 10px;
 	margin-bottom: 50px;
 
 }
@@ -795,7 +790,7 @@ h1 {
 
 .frase { 
 	margin-top: 5%;
-	font-size: 550%;
+	font-size: 650%;
 	flex-direction: column;
 	float: top;
 	margin-bottom: 0;
@@ -803,14 +798,13 @@ h1 {
 }
 
 .frase2 {
-	font-size: 550%;
+	font-size: 650%;
 	flex-direction: column;
 	padding-top: 0;
 }
 
 .tiempo {
-	margin-top: 2%;
-	font-size: 600%;
+	font-size: 700%;
 	flex-direction: column;
 	margin-bottom: 0;
 	color:	#a01208;
@@ -911,7 +905,6 @@ h1 {
 .tnyr-logo-container{
 
 	margin: auto;
-margin-top: 30px;
 }
 .tnyr-logo {
 	width: 9%;
@@ -960,7 +953,7 @@ font-size: 150%;
 }
 
 .tokenomics-grafico-container {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-right: 0;
 	
 	margin: black solid 1px;
@@ -982,7 +975,7 @@ font-size: 150%;
 
 .tokenomics-info {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 table{
@@ -1002,6 +995,8 @@ font-size: 15px;
 }
 
 .flecha-2 {
+	position: relative;
+	bottom: 87px;
 	display: block;
 	margin: auto;
 	width: 4%;
@@ -1149,7 +1144,7 @@ h1 {
 
 .forma-title {
 	padding-top: 2%;
-	width: 30%;
+	width: 45%;
 	
 	height: auto;
 	margin: auto;
@@ -1165,7 +1160,6 @@ h1 {
 	margin-top: 5%;
 	font-size: 600%;
 	flex-direction: column;
-	float: top;
 	margin-bottom: 0;
 	line-height: 100px;
 }
@@ -1178,7 +1172,6 @@ h1 {
 }
 
 .tiempo {
-	margin-top: 2%;
 	font-size: 650%;
 	flex-direction: column;
 	margin-bottom: 0;
@@ -1191,9 +1184,6 @@ h1 {
 }
 .flecha-0 {
 	display: none;
-	margin: auto;
-	width: 8%;
-	height: auto;
 }
 
 
@@ -1256,12 +1246,6 @@ h1 {
 
 .flecha-1 {
 	display: none;
-	margin: auto;
-	width: 4%;
-	height: auto;
-	margin-top: 60px;
-	content: "";
-  clear: both;
 }
 
 /*TNYR*/
@@ -1274,6 +1258,7 @@ h1 {
 }
 
 .tnyr-title-container {
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1281,41 +1266,46 @@ h1 {
 
 .tnyr-title {
 	margin-top: 0;
-	font-size: 350%;
+	font-size: 35px;
 	color: #F09254;
 	padding:3px;
 	text-align: center;
 }
 
-.tnyr-logo {
-	width: 25%;
-	height: auto;
-	float: left;
-	margin-left:35%;
-	margin-top: 20px;
+.tnyr-logo-container{
 
+	margin: auto;
+margin-top: 30px;
+}
+.tnyr-logo {
+	width: 13%;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 30%;
+	margin-bottom: 30px;
+	float: left;
 }
 
 
 .tnyr-info-container{
 	padding-top:35px;
-	padding-left: 32%;
-	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-bottom: 50px;
 	display: inline-table;
 
 }
 .tnyr-info {
-	font-size: 35px;
+	font-size: 25px;
 
 
 }
-
 .rastreador{
 	font-size: 200%;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 10%;
 	color: black;
+	text-decoration: none;
 }
 /*Tokenomics*/
 
@@ -1330,29 +1320,20 @@ h1 {
 }
 
 .tokenomics-title {
-	font-size: 350%;
+	font-size: 35px;
 	text-align: center;
 	color: #F09254;
 }
 
 .tokenomics-grafico-container {
-	margin-right: 0;
-	
-	margin: black solid 1px;
+	margin-left:50px;
 }
 
 .tokenomics-grafico {
 	background-color: transparent;
-	width: 50%;
-	float: left;
-	margin: black solid 1px;
-	margin-bottom: 30px;
+	width: 80%;
 }
 
-.tokenomics-info-container {
-	margin: 0 auto;
-	padding-bottom: 20px;
-}
 
 .tokenomics-info {
 	text-align: center;
@@ -1369,7 +1350,7 @@ table{
 }
 caption{
 
-font-size: 30px;
+font-size: 25px;
 
 }
 td,tr{
@@ -1380,11 +1361,6 @@ font-size: 20px;
 
 .flecha-2 {
 	display: none;
-	margin: auto;
-	width: 8%;
-	height: auto;
-	margin-top: 2px;
-	margin-bottom: 50px;
 
 }
 
@@ -1411,16 +1387,17 @@ font-size: 20px;
 }
 
 	.member-team {
-		width: 25%;
+		width: 30%;
+		margin-left: 10%;
+		margin-bottom: 10px;
 		height: 330px;
 		border: thin silver solid;
-		margin: 0.5em;
 		padding: 0.5em;
 		
 	  }
 	  .img-team{
-		  width: 80%;
-		  height: 200px;
+		  width: 100%;
+		  height: 210px;
 		  align-content: center;
 		  border-radius: 10px;
 	  }
@@ -1524,7 +1501,7 @@ h1 {
 
 .forma-title {
 	padding-top: 1%;
-	width: 60%;
+	width: 45%;
 	
 	height: auto;
 	margin: auto;
@@ -1538,23 +1515,20 @@ h1 {
 
 .frase { 
 	margin-top: 0;
-	font-size: 450%;
+	font-size: 550%;
 	flex-direction: column;
 	float: top;
 	margin-bottom: 0;
-	line-height: 100px;
 }
 
 .frase2 {
-	font-size: 450%;
-	margin-bottom: 3%;
+	font-size: 550%;
 	flex-direction: column;
 	padding-top: 0;
 }
 
 .tiempo {
-	margin-top: 2%;
-	font-size: 500%;
+	font-size: 600%;
 	flex-direction: column;
 	margin-bottom: 0;
 	color:	#a01208;
@@ -1564,11 +1538,8 @@ h1 {
 	margin-top: 40px;
 }
 .flecha-0 {
-	display: block;
-	margin: auto;
-	width: 4%;
 	display: none ;
-	height: auto;
+	
 }
 
 
@@ -1587,8 +1558,7 @@ h1 {
 }
 .h2-p {
 	width: 100%;
-	padding: 10px;
-	float: left;
+	padding: 20px;
 	font-size: 20px;
 	line-height: auto;
 	text-align: justify;
@@ -1630,12 +1600,6 @@ h1 {
 
 .flecha-1 {
 	display: none;
-	margin: auto;
-	width: 4%;
-	height: auto;
-	margin-top: 60px;
-	content: "";
-  clear: both;
 }
 
 /*TNYR*/
@@ -1715,23 +1679,18 @@ margin-top: 30px;
 
 .tokenomics-grafico-container {
 	margin-right: 0;
-	margin-left: 23%;
-	
+	margin-left:40px;
 	margin: black solid 1px;
 }
 
 .tokenomics-grafico {
 	background-color: transparent;
-	width: 70%;
+	width: 80%;
 	float: left;
 	margin: black solid 1px;
 	margin-bottom: 30px;
 }
 
-.tokenomics-info-container {
-	margin: 0 auto;
-	padding-bottom: 20px;
-}
 
 .tokenomics-info {
 	text-align: center;
@@ -1741,7 +1700,7 @@ margin-top: 30px;
 table{
 	border-collapse: collapse;
 	margin-bottom: 20px;
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 caption{
@@ -1756,12 +1715,6 @@ font-size: 20px;
 }
 
 .flecha-2 {
-	display: block;
-	margin: auto;
-	width: 4%;
-	height: auto;
-	margin-top: 20px;
-	margin-bottom: 50px;
 	display: none;
 
 }
@@ -1786,9 +1739,9 @@ font-size: 20px;
 }
 
 	.member-team {
-		margin-bottom: 30px;
-		width: 250px;
-		height: 330px;
+		margin-bottom: 40px;
+		width: 200px;
+		height: fit-content;
 		border: thin silver solid;
 		margin: 0.8em auto 0 auto;
 		padding: 0.2em;
@@ -1808,10 +1761,10 @@ font-size: 20px;
 	  }		
 
 .flecha-3 {
-	display:none;
 	margin: 0 0 0 auto ;
 	padding-left: 20px;
 	width: 50px;
+	float: right;
 	margin-top: 0;
 	margin-bottom: 50px;
 	transform: rotate(180deg);
@@ -1837,6 +1790,7 @@ font-size: 20px;
 
 .footer {
 	background-color: #a01208;
+	margin-top: 40px;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	width: 100%;
