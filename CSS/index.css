@@ -1598,9 +1598,10 @@ h1 {
 }
 
 .img-history {
-	width: 30%;
+	width: 45%;
 	height: auto;
-	margin:auto 0 30px 100px;
+	margin-left: 30%;
+	margin-top: 20px;
 	margin-bottom: 50px;
 }
 
@@ -1609,11 +1610,16 @@ h1 {
 
 .buttons-container{
 	float: right;
+	width: 52%;
+	
+	margin-right: 80px;
 }
 
 .button-history {
-	width: 60%;
-	margin-right: 180px;
+	width: 65%;
+	height: auto;
+	max-width: 200px;
+	display: block;
 	margin-bottom: 30px;
 	font-size: 25px;
 	border-radius: 10px;
@@ -1623,55 +1629,62 @@ h1 {
 
 
 .flecha-1 {
-	display: block;
+	display: none;
 	margin: auto;
 	width: 4%;
 	height: auto;
 	margin-top: 60px;
 	content: "";
   clear: both;
-  display: table;
 }
 
 /*TNYR*/
 
 .tnyr {
 	margin-top: 7%;
+	content: "";
+  clear: both;
+  margin-top: 50px;
 }
 
 .tnyr-title-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .tnyr-title {
 	margin-top: 0;
-	font-size: 300%;
+	font-size: 200%;
 	color: #F09254;
 	padding:3px;
 	text-align: center;
 }
 
-.tnyr-logo {
-	width: 30%;
-	height: auto;
-	float: left;
-	margin-left:35%;
-	margin-top: 20px;
+.tnyr-logo-container{
 
+	margin: auto;
+margin-top: 30px;
+}
+.tnyr-logo {
+	width: 9%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 30%;
+	float: left;
 }
 
 
 .tnyr-info-container{
 	padding-top:35px;
-	padding-left: 15%;
-	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-bottom: 50px;
 	display: inline-table;
 
 }
 .tnyr-info {
-	font-size: 35px;
+	font-size: 25px;
 
 
 }
@@ -1695,7 +1708,7 @@ h1 {
 }
 
 .tokenomics-title {
-	font-size: 300%;
+	font-size: 200%;
 	text-align: center;
 	color: #F09254;
 }
@@ -1728,8 +1741,8 @@ h1 {
 table{
 	border-collapse: collapse;
 	margin-bottom: 20px;
-	width: 100%;
-	padding:5px;
+	width: 80%;
+	margin: auto;
 }
 caption{
 
