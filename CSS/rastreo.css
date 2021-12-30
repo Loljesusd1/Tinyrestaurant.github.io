@@ -26,6 +26,9 @@
 	::-webkit-scrollbar {
 		display: none;
 	}
+	abbr{
+		background-color: #a01208;
+	}
 	
 	
 	/*h1*/
@@ -35,11 +38,11 @@
 		font-size: 200%;
 		background-color: transparent;
 		height: auto;
+		text-align: center;
 		padding: 2%;
-		margin:auto;
+		margin-right: auto;
 	
 	}
-	
 	
 	.forma-title {
 		padding-top: 1%;
@@ -123,7 +126,7 @@
 	display: none;
 	}
 	.transaction-false-title{
-	font-size: 30px;
+	font-size: 33px;
 	
 	}
 	.transaction-true{

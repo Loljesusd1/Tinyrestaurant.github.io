@@ -9,10 +9,14 @@
 	html {
 	  scroll-behavior: smooth;
 	}
+	abbr{
+		background-color: #a01208;
+	}
 	a {
 	  background-color: transparent;
 	  text-decoration: none;
 	}
+	
 	a:hover {
 	  color: #a01208;
 	}
