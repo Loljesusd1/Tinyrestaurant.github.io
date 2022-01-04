@@ -1,3 +1,6 @@
+a{
+	text-decoration: none;
+}
 @media only screen and (min-width: 981px) {
 	/*General*/
 	* {
@@ -47,6 +50,7 @@
 	  overflow: hidden;
 	  margin-top: 0px;
 	}
+	
 	/*Frase*/
 	.frase {
 	  margin-top: 0;
@@ -1281,17 +1285,13 @@ margin:auto;
 	  margin-bottom: 30px;
 	}
 	/* BOTONES*/
-	.buttons-container {
-	  float: right;
-	  width: 52%;
-	  margin-right: 80px;
-	}
+	
 	.button-history {
 	  width: 65%;
 	  height: auto;
 	  max-width: 200px;
 	  display: block;
-	  margin-bottom: 30px;
+	  margin: auto;
 	  font-size: 150%;
 	  text-decoration: none;
 	  border-radius: 10px;
@@ -1325,17 +1325,17 @@ margin:auto;
 	}
 	.tnyr-logo-container {
 	  margin: auto;
-	  margin-top: 30px;
+	  display: block;
 	}
 	.tnyr-logo {
-	  width: 12%;
+	  width: 14%;
 	  height: auto;
-	  margin-top: 15px;
-	  margin-left: 25%;
+	  margin-top: 22px;
+	  margin-left: 15%;
 	  float: left;
 	}
 	.tnyr-info-container {
-	  padding-top: 35px;
+	  padding-top: 45px;
 	  padding-left: 15px;
 	  padding-bottom: 50px;
 	  display: inline-table;
