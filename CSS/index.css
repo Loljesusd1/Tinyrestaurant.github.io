@@ -104,9 +104,8 @@
 	}
 	.img-history {
 	  width: 30%;
-	  height: auto;
-	  margin: auto 0 30px 80px;
-	  margin-bottom: 50px;
+	  display:block;
+	  margin:auto;
 	}
 	/* BOTONES*/
 	.buttons-container {
@@ -114,6 +113,7 @@
 	}
 	.button-history {
 	  width: 60%;
+	  margin-top: 20px;
 	  margin-right: 180px;
 	  margin-bottom: 30px;
 	  font-size: 25px;
@@ -146,7 +146,9 @@
 	  color: #F09254;
 	}
 	.tnyr-logo-container {
-	  margin: auto;
+	 
+display:block;
+margin:auto;
 	}
 	.tnyr-logo {
 	  width: 8%;
@@ -1272,11 +1274,11 @@
 	  margin-top: 100px;
 	}
 	.img-history {
-	  width: 45%;
+	  width: 55%;
 	  height: auto;
-	  margin-left: 30%;
-	  margin-top: 20px;
-	  margin-bottom: 50px;
+	  display:block;
+	  margin:auto;
+	  margin-bottom: 30px;
 	}
 	/* BOTONES*/
 	.buttons-container {
@@ -1290,10 +1292,14 @@
 	  max-width: 200px;
 	  display: block;
 	  margin-bottom: 30px;
-	  font-size: 25px;
+	  font-size: 150%;
+	  text-decoration: none;
 	  border-radius: 10px;
 	  border: solid black 2px;
 	  overflow: hidden;
+	}
+	a{
+		text-decoration: none;
 	}
 	.flecha-1 {
 	  display: none;
