@@ -5,12 +5,13 @@ a{
 @media only screen and (min-width: 981px) {
 	/*General*/
 	* {
-	  background-color: #f5debe;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
 	}
-	
+	body{
+		background-color: #f5debe;
+	}
 	html {
 	  scroll-behavior: smooth;
 	}
@@ -25,12 +26,16 @@ a{
 	a:hover {
 	  color: #a01208;
 	}
-	a:visited {
-	  color: black;
-	}
+	
 	::-webkit-scrollbar {
 	  display: none;
 	}
+	#fondo{
+		background-image: url(../IMG/Caratula.png);
+		background-repeat: no-repeat;
+		background-size: 100% ;
+	}
+	
 	/*h1*/
 	h1 {
 	  position: absolute;
@@ -42,41 +47,42 @@ a{
 	  display: none;
 	  z-index: -1;
 	}
+	
+	
 	.forma-title {
-	  padding-top: 1%;
+	  padding-top: 40px;
 	  width: 25%;
 	  margin: auto;
 	  display: block;
 	  background-color: transparent;
 	  position: relative;
 	  overflow: hidden;
-	  margin-top: 0px;
 	}
+	
 	
 	/*Frase*/
 	.frase {
 	  margin-top: 0;
-	  font-size: 800%;
+	  font-size: 700%;
 	  flex-direction: column;
 	  float: top;
 	  margin-bottom: 0;
 	  line-height: 100px;
 	}
 	.frase2 {
-	  font-size: 800%;
-	  margin-bottom: 3%;
+	  font-size: 700%;
+	  margin-bottom: 5%;
 	  flex-direction: column;
 	  padding-top: 0;
 	}
 	.tiempo {
-	  margin-top: 2%;
-	  font-size: 800%;
+	  font-size: 700%;
 	  flex-direction: column;
 	  margin-bottom: 0;
 	  color: #a01208;
 	}
 	.frase-inicial {
-	  margin-left: 10px;
+	  margin-left: 50px;
 	  margin-bottom: 0px;
 	}
 	.flecha-0 {
@@ -87,16 +93,18 @@ a{
 	}
 	/*h2*/
 	.history-title {
+		padding-top: 50px;
 	  font-size: 300%;
 	  color: #F09254;
 	  text-align: center;
 	}
 	.history-title-container {
 	  margin-bottom: 8%;
-	  margin-top: 7%;
+	  margin-top: 20px;
 	}
 	.h2-p-container {
-	  margin-left: 30px;
+	  margin-left: 55px;
+	  
 	}
 	.h2-p {
 	  width: 54%;
@@ -128,6 +136,7 @@ a{
 	  overflow: hidden;
 	}
 	.flecha-1 {
+		position: relative;
 	  display: block;
 	  margin: auto;
 	  width: 4%;
@@ -138,16 +147,15 @@ a{
 	  display: table;
 	}
 	/*TNYR*/
-	.tnyr {
-	  margin-top: 10%;
-	}
+	
 	.tnyr-title-container {
-	  display: flex;
+	  
 	  justify-content: center;
-	  align-items: center;
+	  padding-top: 1px;
 	}
 	.tnyr-title {
-	  margin-top: 0;
+		text-align: center;
+	  margin-top: 50px;
 	  font-size: 37px;
 	  color: #F09254;
 	}
@@ -197,66 +205,43 @@ margin:auto;
 	  margin-top: 10px;
 	  margin-right: 0;
 	  margin-left: 5%;
-	  margin: black solid 1px;
+	  
 	}
 	.tokenomics-grafico {
 	  background-color: transparent;
 	  width: 55%;
-	  float: left;
-	  margin: black solid 1px;
+	  display: block;
+	  margin: auto;
 	}
-	.tokenomics-info {
-	  text-align: center;
-	  margin-top: 10px;
-	}
-	table {
-	  border-collapse: collapse;
-	  width: 30%;
-	}
-	caption {
-	  font-size: 25px;
-	}
-	td,
-	tr {
-	  border: 2px solid black;
-	  padding: 4px;
-	  font-size: 15px;
-	}
+	
 	.flecha-2 {
-	  position: relative;
-	  bottom: 58px;
+		clear: both;
+		margin-top: 50px;
 	  display: block;
 	  margin: auto;
 	  width: 4%;
 	  height: auto;
-	  margin-top: 10px;
+	  margin-top: 50px;
 	}
 	/*OUR TEAM*/
 	.team-h4-container {
-	  padding-bottom: 0;
-	  margin-bottom: 80px;
-	  margin-top: 20px;
+	  justify-content: center;
 	}
 	.team-h4 {
+		padding-top: 50px;
 	  font-size: 37px;
 	  text-align: center;
 	  color: #F09254;
 	}
-	/*
-   SI SE QUIERE EN VARIAS FILAS
+	
    .full-team{
 	   
 	  display: inline-flex;
-	  margin-left: 10%;
+	  margin-left: 15%;
 	  flex-wrap:wrap;
 	  
   }
-  */
-	.full-team {
-	  display: inline-flex;
-	  margin-left: 10%;
-	  margin: auto;
-	}
+  
 	.member-team {
 	  width: 25%;
 	  height: fit-content;
@@ -279,12 +264,9 @@ margin:auto;
 	  font-size: medium;
 	}
 	.flecha-3 {
-	  display: block;
-	  margin: 0 0 0 auto;
-	  padding-left: 20px;
-	  width: 50px;
-	  margin-top: 0;
-	  margin-bottom: 50px;
+		display: block;
+		margin: auto;
+	  width: 40px;
 	  transform: rotate(180deg);
 	}
 	/*imagenes*/
@@ -302,6 +284,7 @@ margin:auto;
 	  background-color: #a01208;
 	}
 	.footer {
+		clear: both;
 	  background-color: #a01208;
 	  padding-bottom: 0;
 	  margin-bottom: 0;
@@ -312,28 +295,32 @@ margin:auto;
   }
   
   
-  /* Para 960px */
+  /* Para 980px */
   
   @media only screen and (max-width: 980px) and (min-width: 821px) {
 	/*General*/
 	* {
-	  background-color: #f5debe;
+	  
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
 	}
+	body{
+		background-color: #f5debe;
+	}
 	html {
 	  scroll-behavior: smooth;
 	}
-	a {
-	  background-color: transparent;
+	#fondo{
+		
+		background-image: url(../IMG/Caratula0.png);
+		background-repeat: no-repeat;
+		background-size: 100% ;
 	}
 	a:hover {
 	  color: #a01208;
 	}
-	a:visited {
-	  color: black;
-	}
+	
 	::-webkit-scrollbar {
 	  display: none;
 	}
@@ -341,16 +328,12 @@ margin:auto;
 	h1 {
 	  position: absolute;
 	  left: 32%;
-	  font-family: 'Times New Roman', Times, serif;
-	  font-size: 250%;
-	  background-color: transparent;
-	  height: auto;
 	  display: none;
 	  z-index: -1;
 	}
 	.forma-title {
-	  padding-top: 1%;
-	  width: 25%;
+	  padding-top: 5%;
+	  width: 22%;
 	  margin: auto;
 	  display: block;
 	  background-color: transparent;
@@ -361,61 +344,59 @@ margin:auto;
 	/*Frase*/
 	.frase {
 	  margin-top: 30px;
-	  font-size: 670%;
+	  font-size: 650%;
 	  float: top;
 	  margin-bottom: 0;
 	  line-height: 100px;
 	}
 	.frase2 {
-	  font-size: 670%;
-	  margin-bottom: 5%;
+	  font-size: 650%;
+	  margin-bottom: 4%;
 	  padding-top: 0;
 	}
 	.tiempo {
-	  margin-top: 2%;
-	  font-size: 700%;
+	  font-size: 650%;
 	  margin-bottom: 0;
 	  color: #a01208;
 	}
 	.frase-inicial {
-	  margin-left: 10px;
+	  margin-left: 60px;
 	}
 	.flecha-0 {
 	  display: block;
 	  margin: auto;
-	  width: 6%;
+	  width: 5%;
 	  height: auto;
 	}
 	/*h2*/
 	.history-title {
+		padding-top: 50px;
 	  font-size: 300%;
 	  color: #F09254;
 	  text-align: center;
 	}
 	.history-title-container {
-	  margin-bottom: 8%;
-	  margin-top: 7%;
+	  
+	  margin-top: 25px;
 	}
 	.h2-p {
 	  width: 54%;
 	  float: left;
-	  margin-left: 20px;
+	  margin-top: 30px;
+	  margin-left: 60px;
 	  font-size: 20px;
 	  line-height: auto;
 	  text-align: justify;
 	}
-	.history-div {
-	  margin-top: 100px;
-	}
 	.img-history {
 	  width: 30%;
-	  height: auto;
-	  margin: auto 0 30px 80px;
-	  margin-bottom: 50px;
+	  display:block;
+	  margin:auto;
 	}
 	/* BOTONES*/
 	.buttons-container {
 	  float: right;
+	  margin-top: 20px;
 	}
 	.button-history {
 	  width: 100%;
@@ -432,24 +413,21 @@ margin:auto;
 	  margin: auto;
 	  width: 4%;
 	  height: auto;
-	  margin-top: 60px;
+	  margin-top: 250px;
 	  content: "";
 	  clear: both;
-	  display: table;
 	}
 	/*TNYR*/
 	.tnyr {
-	  margin-top: 10%;
+	  margin-top: 2%;
 	}
-	.tnyr-title-container {
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	}
+	
 	.tnyr-title {
+		padding-top: 50px;
 	  margin-top: 0;
 	  font-size: 37px;
 	  color: #F09254;
+	  text-align: center;
 	}
 	.tnyr-logo-container {
 	  margin: auto;
@@ -491,43 +469,21 @@ margin:auto;
 	  color: #F09254;
 	}
 	.tokenomics-grafico-container {
-	  margin-top: 10px;
-	  margin-right: 0;
-	  margin: black solid 1px;
-	}
-	.tokenomics-grafico {
-	  background-color: transparent;
-	  width: 55%;
-	  float: left;
-	  margin-left: 20px;
-	  margin: black solid 1px;
-	  margin-right: 30px;
-	}
-	.tokenomics-info-container {
-	  margin-top: 10px;
-	  ;
-	}
-	.tokenomics-info {
-	  text-align: center;
-	  margin-top: 10px;
-	}
-	table {
-	  border-collapse: collapse;
-	  margin-bottom: 10px;
-	  width: 25%;
-	}
-	caption {
-	  font-size: 25px;
-	}
-	td,
-	tr {
-	  border: 2px solid black;
-	  padding: 4px;
-	  font-size: 15px;
-	}
+		margin-top: 10px;
+		margin-right: 0;
+		margin-left: 5%;
+		
+	  }
+	  .tokenomics-grafico {
+		background-color: transparent;
+		width: 55%;
+		display: block;
+		margin: auto;
+	  }
+	
 	.flecha-2 {
-	  position: relative;
-	  bottom: 60px;
+		clear: both;
+		padding-top: 70px;
 	  display: block;
 	  margin: auto;
 	  width: 4%;
@@ -536,7 +492,7 @@ margin:auto;
 	}
 	/*OUR TEAM*/
 	.team-h4-container {
-	  padding-top: 30px;
+	  padding-top: 40px;
 	  padding-bottom: 0;
 	  margin-bottom: 0;
 	  margin-top: 50px;
@@ -570,23 +526,22 @@ margin:auto;
 	  font-size: 15px;
 	}
 	.flecha-3 {
-	  display: block;
-	  margin: 0 0 0 auto;
-	  padding-left: 20px;
-	  width: 50px;
-	  margin-top: 0;
-	  margin-bottom: 50px;
+		display: block;
+		margin: auto;
+		margin-bottom: 10px;
+	  width: 40px;
 	  transform: rotate(180deg);
 	}
+	
 	/*imagenes*/
 	.img-container {
 	  display: inline-flex;
 	  color: aqua;
 	}
 	.img-red {
-	  width: 45px;
-	  width: 45px;
-	  margin: 10px;
+	  width: 40px;
+	  width: 40px;
+	  margin: 8px;
 	  background-color: transparent;
 	}
 	.img-red-container {
@@ -603,18 +558,27 @@ margin:auto;
   }
   
   
-  /* Para 800px */
+  /* Para 820px */
   
   @media only screen and (max-width: 820px) and (min-width: 621px) {
 	/*General*/
 	* {
-	  background-color: #f5debe;
+	
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
 	}
+	body{
+		background-color: #f5debe;
+	}
 	html {
 	  scroll-behavior: smooth;
+	}
+	#fondo{
+		
+		background-image: url(../IMG/Caratula1.png);
+		background-repeat: no-repeat;
+		background-size: 100% ;
 	}
 	a {
 	  background-color: transparent;
@@ -623,9 +587,7 @@ margin:auto;
 	a:hover {
 	  color: #a01208;
 	}
-	a:visited {
-	  color: black;
-	}
+	
 	::-webkit-scrollbar {
 	  display: none;
 	}
@@ -900,18 +862,26 @@ margin:auto;
   }
   
   
-  /* Para 600px */
+  /* Para 620px */
   
   @media only screen and (max-width: 620px) and (min-width: 501px) {
 	/*General*/
 	* {
-	  background-color: #f5debe;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
 	}
 	html {
 	  scroll-behavior: smooth;
+	}
+	body{
+		background-color: #f5debe;
+	}
+	#fondo{
+		
+		background-image: url(../IMG/Caratula2.png);
+		background-repeat: no-repeat;
+		background-size: 100% ;
 	}
 	a {
 	  background-color: transparent;
@@ -920,9 +890,7 @@ margin:auto;
 	a:hover {
 	  color: #a01208;
 	}
-	a:visited {
-	  color: black;
-	}
+	
 	::-webkit-scrollbar {
 	  display: none;
 	}
@@ -1187,19 +1155,22 @@ margin:auto;
   }
   
   
-  /* Para 480px */
+  /* Para 500px */
   
   @media only screen and (max-width: 500px) and (min-width: 5px) {
 	/*General*/
 	* {
-	  background-color: #f5debe;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
 	}
+	body{
+		background-color: #f5debe;
+	}
 	html {
 	  scroll-behavior: smooth;
 	}
+	
 	a {
 	  background-color: transparent;
 	  color: black;
@@ -1207,9 +1178,7 @@ margin:auto;
 	a:hover {
 	  color: #a01208;
 	}
-	a:visited {
-	  color: black;
-	}
+	
 	::-webkit-scrollbar {
 	  display: none;
 	}
@@ -1374,28 +1343,9 @@ margin:auto;
 	  background-color: transparent;
 	  width: 80%;
 	  float: left;
-	  margin: black solid 1px;
 	  margin-bottom: 30px;
 	}
-	.tokenomics-info {
-	  text-align: center;
-	  margin-top: 50px;
-	}
-	table {
-	  border-collapse: collapse;
-	  margin-bottom: 20px;
-	  width: 60%;
-	  margin: auto;
-	}
-	caption {
-	  font-size: 30px;
-	}
-	td,
-	tr {
-	  border: 2px solid black;
-	  padding: 5px;
-	  font-size: 20px;
-	}
+
 	.flecha-2 {
 	  display: none;
 	}
