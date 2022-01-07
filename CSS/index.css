@@ -51,7 +51,7 @@ a{
 	
 	.forma-title {
 	  padding-top: 40px;
-	  width: 25%;
+	  width: 23%;
 	  margin: auto;
 	  display: block;
 	  background-color: transparent;
@@ -82,7 +82,7 @@ a{
 	  color: #a01208;
 	}
 	.frase-inicial {
-	  margin-left: 50px;
+	  margin-left: 80px;
 	  margin-bottom: 0px;
 	}
 	.flecha-0 {
@@ -103,7 +103,7 @@ a{
 	  margin-top: 20px;
 	}
 	.h2-p-container {
-	  margin-left: 55px;
+	  margin-left: 70px;
 	  
 	}
 	.h2-p {
@@ -117,7 +117,7 @@ a{
 	  margin-top: 100px;
 	}
 	.img-history {
-	  width: 30%;
+	  width: 28%;
 	  display:block;
 	  margin:auto;
 	}
@@ -1244,7 +1244,7 @@ margin:auto;
 	  display: block;
 	}
 	.tnyr-info-container {
-	  
+	  float:left;
 		margin-top:20px;
 	}
 	.tnyr-info {
