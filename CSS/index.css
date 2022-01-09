@@ -1,6 +1,4 @@
-a{
-	text-decoration: none;
-}
+
 
 @media only screen and (min-width: 981px) {
 	/*General*/
@@ -8,6 +6,10 @@ a{
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: black;
 	}
 	body{
 		background-color: #f5debe;
@@ -134,6 +136,10 @@ a{
 	  border: solid black 2px;
 	  overflow: hidden;
 	}
+	.button-history:hover{
+
+		border: solid #a01208 2px;
+	}
 	.flecha-1 {
 		position: relative;
 	  display: block;
@@ -257,6 +263,9 @@ margin:auto;
 	  align-content: center;
 	  border-radius: 10px;
 	}
+	.img-red-team{
+		width: 20px;
+	}
 	div.member-team p {
 	  margin: 2px;
 	  text-align: center;
@@ -293,7 +302,6 @@ margin:auto;
 	}
   }
   
-  
   /* Para 980px */
   
   @media only screen and (max-width: 980px) and (min-width: 821px) {
@@ -303,6 +311,10 @@ margin:auto;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: black;
 	}
 	body{
 		background-color: #f5debe;
@@ -405,6 +417,10 @@ margin:auto;
 		border: solid black 2px;
 		overflow: hidden;
 	  }
+	  .button-history:hover{
+
+		border: solid #a01208 2px;
+	}
 	.flecha-1 {
 	  display: block;
 	  margin: auto;
@@ -517,6 +533,9 @@ margin:auto;
 	  align-content: center;
 	  border-radius: 10px;
 	}
+	.img-red-team{
+		width: 20px;
+	}
 	div.member-team p {
 	  margin: 2px;
 	  text-align: center;
@@ -554,7 +573,6 @@ margin:auto;
 	}
   }
   
-  
   /* Para 820px */
   
   @media only screen and (max-width: 820px) and (min-width: 621px) {
@@ -564,6 +582,10 @@ margin:auto;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: black;
 	}
 	body{
 		background-color: #f5debe;
@@ -680,6 +702,10 @@ margin:auto;
 		border: solid black 2px;
 		overflow: hidden;
 	  }
+	  .button-history:hover{
+
+		border: solid #a01208 2px;
+	}
 	.flecha-1 {
 	  display: block;
 	  margin: auto;
@@ -785,6 +811,9 @@ margin:auto;
 	  align-content: center;
 	  border-radius: 10px;
 	}
+	.img-red-team{
+		width: 20px;
+	}
 	div.member-team p {
 	  margin: 2px;
 	  text-align: center;
@@ -824,7 +853,6 @@ margin:auto;
 	}
   }
   
-  
   /* Para 620px */
   
   @media only screen and (max-width: 620px) and (min-width: 501px) {
@@ -833,6 +861,10 @@ margin:auto;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: black;
 	}
 	html {
 	  scroll-behavior: smooth;
@@ -949,6 +981,10 @@ margin:auto;
 		border: solid black 2px;
 		overflow: hidden;
 	  }
+	  .button-history:hover{
+
+		border: solid #a01208 2px;
+	}
 	.flecha-1 {
 	  display: none;
 	}
@@ -1053,6 +1089,9 @@ margin:auto;
 	  align-content: center;
 	  border-radius: 10px;
 	}
+	.img-red-team{
+		width: 20px;
+	}
 	div.member-team p {
 	  margin: 2px;
 	  text-align: center;
@@ -1093,7 +1132,6 @@ margin:auto;
 	}
   }
   
-  
   /* Para 500px */
   
   @media only screen and (max-width: 500px) and (min-width: 5px) {
@@ -1102,6 +1140,10 @@ margin:auto;
 	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: black;
 	}
 	body{
 		background-color: #f5debe;
@@ -1208,9 +1250,11 @@ margin:auto;
 	  border: solid black 2px;
 	  overflow: hidden;
 	}
-	a{
-		text-decoration: none;
+	.button-history:hover{
+
+		border: solid #a01208 2px;
 	}
+	
 	.flecha-1 {
 	  display: none;
 	}
@@ -1244,10 +1288,13 @@ margin:auto;
 	  display: block;
 	}
 	.tnyr-info-container {
-	  
+		
+		height: auto;
+		margin: auto;
 		margin-top:20px;
 	}
 	.tnyr-info {
+		text-align: center;
 	  font-size: 25px;
 	}
 	.rastreador {
@@ -1258,6 +1305,7 @@ margin:auto;
 	}
 	/*Tokenomics*/
 	.tokenomics {
+		clear: both;
 	  margin-bottom: 50px;
 	}
 	.tokenomics-container {
@@ -1312,6 +1360,9 @@ margin:auto;
 	  height: 250px;
 	  align-content: center;
 	  border-radius: 10px;
+	}
+	.img-red-team{
+		width: 20px;
 	}
 	div.member-team p {
 	  margin: 2px;
