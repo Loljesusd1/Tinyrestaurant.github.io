@@ -52,191 +52,208 @@
 	
 	
 	.forma-title {
-	  padding-top: 40px;
-	  width: 23%;
-	  margin: auto;
-	  display: block;
+	  padding-top: 10px;
+	  width: 28%;
+	  margin-left: 8%;
+	  margin-right: 30px;
 	  background-color: transparent;
 	  position: relative;
 	  overflow: hidden;
+	  float: left;
 	}
+	.header-title{
+		
+	  padding-top: 10px;
+	}
+	.forma-header{
+		width:17%;
+		margin-left: 10px;
+	}
+	/*lista*/
+	.ul-icons{
+		float: right;
+		padding: 5px;
+		border-radius: 20px;
+		border: solid #a01208 4px;
+		margin-right: 70px;
+		background-color: white;
+	}
+	.li-icon{
+		list-style: none;
+	}
+	.li-icon img{
+		width: 50px;
+		border-radius: 30px;
+		margin-right: 10%;
+	}
+	
 	
 	
 	/*Frase*/
-	.frase {
-	  margin-top: 0;
-	  font-size: 700%;
-	  flex-direction: column;
-	  float: top;
-	  margin-bottom: 0;
-	  line-height: 100px;
+	.frase-inicial{
+	  margin-left: 8%;
+	  margin-top: 8%;
+	  clear: both;
 	}
-	.frase2 {
-	  font-size: 700%;
-	  margin-bottom: 5%;
-	  flex-direction: column;
-	  padding-top: 0;
+	.frase-inicial b{
+		color: #a01208;
+		font-weight: normal;
 	}
-	.tiempo {
-	  font-size: 700%;
-	  flex-direction: column;
-	  margin-bottom: 0;
-	  color: #a01208;
+
+	.frase-inicial span{
+	  font-size: 80px;
+	  padding-top: 200px;
 	}
-	.frase-inicial {
-	  margin-left: 80px;
-	  margin-bottom: 0px;
+	.p-title{
+		background-color: white;
+		margin-top: 30px;
+		margin-left: 8%;
+		margin-right: 15%;
+		border-radius: 20px;
+		border: solid #a01208 4px;
+		text-align: center;
+		font-size: 30px;
 	}
-	.flecha-0 {
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
+	.p-title b{
+		
+		color: #a01208;
+		font-weight: normal;
 	}
 	/*h2*/
 	.history-title {
-		padding-top: 50px;
+	  padding-top: 50px;
 	  font-size: 300%;
-	  color: #F09254;
+	  color: #a01208;
 	  text-align: center;
 	}
 	.history-title-container {
 	  margin-bottom: 3%;
 	  margin-top: 20px;
 	}
-	.h2-p-container {
-	  margin-left: 70px;
-	  
-	}
-	.h2-p {
-	  width: 54%;
-	  float: left;
-	  font-size: 20px;
-	  line-height: auto;
-	  text-align: justify;
-	}
-	.history-div {
-	  margin-top: 100px;
-	}
-	.img-history {
-	  width: 28%;
-	  display:block;
-	  margin:auto;
-	}
-	/* BOTONES*/
-	.buttons-container {
-	  float: right;
-	  margin-bottom: 40px;
-	}
-	.button-history {
-	  width: 65%;
-	  margin-top: 30px;
-	  font-size: 25px;
-	  border-radius: 10px;
-	  border: solid black 2px;
-	  overflow: hidden;
-	}
-	.button-history:hover{
-
-		border: solid #a01208 2px;
-	}
-	.flecha-1 {
-		position: relative;
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
-	  margin-top: 60px;
-	  content: "";
-	  clear: both;
-	  display: table;
-	}
-	/*TNYR*/
-	
-	.tnyr-title-container {
-	  
-	  justify-content: center;
-	  padding-top: 1px;
-	}
-	.tnyr-title {
+	.h2-container{
+		background-color: white;
+		margin-left: 70px;
+		margin-right: 70px;
+		font-size: 25px;
+		border-radius: 20px;
 		text-align: center;
-	  margin-top: 50px;
-	  font-size: 37px;
-	  color: #F09254;
+		border: solid #a01208 4px;
 	}
-	.tnyr-logo-container {
-	 
-display:block;
-margin:auto;
+	.h2-p b{
+		color: #a01208;
+		font-weight: normal;
 	}
-	.tnyr-logo {
-	  width: 8%;
-	  height: auto;
-	  margin-left: 34%;
-	  float: left;
-	  margin-top: 10px;
+	.utensilios-container{
+		margin-left: 90px;
+		margin-right: 90px;
+		margin-top: 20px;
 	}
-	.tnyr-info-container {
-	  padding-top: 35px;
-	  padding-left: 15px;
-	  padding-bottom: 50px;
-	  display: inline-table;
+	.utensilios-container img{
+width: 100%;
 	}
-	.tnyr-info {
-	  font-size: 30px;
-	}
-	.rastreador {
-	  font-size: 150%;
-	  text-decoration: none;
-	}
-	.rastreador-container {
-	  margin-left: 43%;
-	  margin-right: 40%;
-	}
-	/*Tokenomics*/
-	.tokenomics {
-	  margin-bottom: 50px;
-	}
-	.tokenomics-container {
-	  margin-top: 2%;
-	  align-items: center;
-	}
-	.tokenomics-title {
-	  font-size: 37px;
-	  text-align: center;
-	  color: #F09254;
-	}
-	.tokenomics-grafico-container {
-	  margin-top: 10px;
-	  margin-right: 0;
-	  margin-left: 5%;
-	  
-	}
-	.tokenomics-grafico {
-	  background-color: transparent;
-	  width: 55%;
-	  display: block;
-	  margin: auto;
-	}
+	/*sales phases*/
+	h3{
+		padding-top: 50px;
+		font-size: 300%;
+		text-align: center;
+		color: #a01208;
+	  }
 	
-	.flecha-2 {
-		clear: both;
-		margin-top: 50px;
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
-	  margin-top: 50px;
-	}
+	  .timeline {
+		white-space: nowrap;
+		overflow-x: hidden;
+		background-color: transparent;
+	  }
+	  
+	  .timeline ol {
+		font-size: 0;
+		width: 100vw;
+		padding: 250px 0;
+		transition: all 1s;
+	  }
+	  
+	  .timeline ol li {
+		position: relative;
+		display: inline-block;
+		list-style-type: none;
+		width: 160px;
+		height: 3px;
+		background: #fff;
+	  }
+	  
+	  
+	  .timeline ol li:not(:first-child) {
+		margin-left: 14px;
+	  }
+	  
+	  .timeline ol li:not(:last-child)::after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 99%;
+		bottom: 0;
+		width: 12px;
+		height: 12px;
+		transform: translateY(-50%);
+		border-radius: 50%;
+		background: white;
+		border: 2px solid #a01208;
+	  }
+	  
+	  .timeline ol li div {
+		position: absolute;
+		left: calc(100% + 7px);
+		width: fit-content;
+		padding: 15px;
+		font-size: 1rem;
+		white-space: normal;
+		color: black;
+		background: white;
+	  }
+	  
+	  .timeline ol li div::before {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+	  }
+	  
+	  .timeline ol li:nth-child(odd) div {
+		top: -16px;
+		transform: translateY(-100%);
+	  }
+	  
+	  .timeline ol li:nth-child(odd) div::before {
+		top: 100%;
+		border-width: 8px 8px 0 0;
+		border-color: white transparent transparent transparent;
+	  }
+	  
+	  .timeline ol li:nth-child(even) div {
+		top: calc(100% + 16px);
+	  }
+	  
+	  .timeline ol li:nth-child(even) div::before {
+		top: -8px;
+		border-width: 8px 0 0 8px;
+		border-color: transparent transparent transparent white;
+	  }
+	  
+	  .timeline time {
+		display: block;
+	  }
+	  
+	  
 	/*OUR TEAM*/
-	.team-h4-container {
-	  justify-content: center;
-	}
+	
 	.team-h4 {
 		padding-top: 50px;
-	  font-size: 37px;
+	  font-size: 300%;
 	  text-align: center;
-	  color: #F09254;
+	  color: #a01208;
 	}
 	
    .full-team{
@@ -270,12 +287,6 @@ margin:auto;
 	  margin: 2px;
 	  text-align: center;
 	  font-size: medium;
-	}
-	.flecha-3 {
-		display: block;
-		margin: auto;
-	  width: 40px;
-	  transform: rotate(180deg);
 	}
 	/*imagenes*/
 	.img-container {
@@ -353,32 +364,7 @@ margin:auto;
 	  margin-top: 0px;
 	}
 	/*Frase*/
-	.frase {
-	  margin-top: 30px;
-	  font-size: 650%;
-	  float: top;
-	  margin-bottom: 0;
-	  line-height: 100px;
-	}
-	.frase2 {
-	  font-size: 650%;
-	  margin-bottom: 4%;
-	  padding-top: 0;
-	}
-	.tiempo {
-	  font-size: 650%;
-	  margin-bottom: 0;
-	  color: #a01208;
-	}
-	.frase-inicial {
-	  margin-left: 60px;
-	}
-	.flecha-0 {
-	  display: block;
-	  margin: auto;
-	  width: 5%;
-	  height: auto;
-	}
+	
 	/*h2*/
 	.history-title {
 		padding-top: 50px;
@@ -390,130 +376,14 @@ margin:auto;
 	  
 	  margin-top: 25px;
 	}
-	.h2-p {
-	  width: 50%;
-	  float: left;
-	  padding-right: 20px;
-	  margin-top: 30px;
-	  margin-left: 80px;
-	  font-size: 20px;
-	  line-height: auto;
-	  text-align: justify;
-	}
-	.img-history {
-	  width: 30%;
-	  display:block;
-	  margin:auto;
-	}
-	/* BOTONES*/
-	.buttons-container {
-		float: right;
-	  }
-	  .button-history {
-		width: 65%;
-		margin-top: 30px;
-		font-size: 25px;
-		border-radius: 10px;
-		border: solid black 2px;
-		overflow: hidden;
-	  }
-	  .button-history:hover{
-
-		border: solid #a01208 2px;
-	}
-	.flecha-1 {
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
-	  margin-top: 250px;
-	  content: "";
-	  clear: both;
-	}
-	/*TNYR*/
-	.tnyr {
-	  margin-top: 2%;
-	}
 	
-	.tnyr-title {
-		padding-top: 50px;
-	  margin-top: 0;
-	  font-size: 37px;
-	  color: #F09254;
-	  text-align: center;
-	}
-	.tnyr-logo-container {
-	  margin: auto;
-	}
-	.tnyr-logo {
-	  width: 9%;
-	  height: auto;
-	  margin-top: 15px;
-	  margin-left: 30%;
-	  float: left;
-	}
-	.tnyr-info-container {
-	  padding-top: 35px;
-	  padding-left: 15px;
-	  padding-bottom: 50px;
-	  display: inline-table;
-	}
-	.tnyr-info {
-	  font-size: 30px;
-	}
-	.rastreador {
-	  font-size: 150%;
-	}
-	.rastreador-container {
-	  margin-left: 40%;
-	  margin-right: 40%;
-	}
-	/*Tokenomics*/
-	.tokenomics {
-	  margin-bottom: 50px;
-	}
-	.tokenomics-container {
-	  margin-top: 2%;
-	  align-items: center;
-	}
-	.tokenomics-title {
-	  font-size: 37px;
-	  text-align: center;
-	  color: #F09254;
-	}
-	.tokenomics-grafico-container {
-		margin-top: 10px;
-		margin-right: 0;
-		margin-left: 5%;
-		
-	  }
-	  .tokenomics-grafico {
-		background-color: transparent;
-		width: 55%;
-		display: block;
-		margin: auto;
-	  }
 	
-	.flecha-2 {
-		clear: both;
-		padding-top: 70px;
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
-	  margin-bottom: 50px;
-	}
 	/*OUR TEAM*/
-	.team-h4-container {
-	  padding-top: 40px;
-	  padding-bottom: 0;
-	  margin-bottom: 0;
-	  margin-top: 50px;
-	}
+	
 	.team-h4 {
 	  font-size: 37px;
 	  text-align: center;
-	  color: #F09254;
+	  color: #a01208;
 	}
 	.full-team {
 	  flex-wrap: wrap;
@@ -540,13 +410,6 @@ margin:auto;
 	  margin: 2px;
 	  text-align: center;
 	  font-size: 15px;
-	}
-	.flecha-3 {
-		display: block;
-		margin: auto;
-		margin-bottom: 10px;
-	  width: 40px;
-	  transform: rotate(180deg);
 	}
 	
 	/*imagenes*/
@@ -628,36 +491,7 @@ margin:auto;
 	  background-color: transparent;
 	}
 	/*Frase*/
-	.frase {
-	  margin-top: 5%;
-	  font-size: 600%;
-	  flex-direction: column;
-	  float: top;
-	  margin-bottom: 0;
-	  line-height: 100px;
-	}
-	.frase2 {
-	  font-size: 600%;
-	  flex-direction: column;
-	  padding-top: 0;
-	}
-	.tiempo {
-	  font-size: 600%;
-	  flex-direction: column;
-	  margin-bottom: 0;
-	  color: #a01208;
-	}
-	.frase-inicial {
-	  margin-left: 60px;
-	  margin-top: 50px;
-	  margin-bottom: 2%;
-	}
-	.flecha-0 {
-	  display: block;
-	  margin: auto;
-	  width: 6%;
-	  height: auto;
-	}
+	
 	/*h2*/
 	.history-title {
 		padding-top: 50px;
@@ -669,129 +503,15 @@ margin:auto;
 	  margin-bottom: 8%;
 	  margin-top: 3%;
 	}
-	.h2-p-container {
-	  margin-left: 60px;
-	}
-	.h2-p {
-	  width: 50%;
-	  float: left;
-	  margin-right: 0px;
-	  font-size: 17px;
-	  line-height: auto;
-	  text-align: justify;
-	}
-	.history-div {
-	  margin-top: 100px;
-	}
-	.img-history {
-	  width: 35%;
-	  height: auto;
-	  margin: auto 0 0 10px;
-	  margin-bottom: 50px;
-	}
-	/* BOTONES*/
-	.buttons-container {
-		float: right;
-	  }
-	  .button-history {
-		width: 60%;
-		padding:2px;
-		margin-top: 20px;
-		font-size: 20px;
-		border-radius: 10px;
-		border: solid black 2px;
-		overflow: hidden;
-	  }
-	  .button-history:hover{
-
-		border: solid #a01208 2px;
-	}
-	.flecha-1 {
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
-	  clear: both;
-	}
-	/*TNYR*/
-	.tnyr {
-	  margin-top: 5%;
-	}
-	
-	.tnyr-title {
-		padding-top: 50px;
-		text-align: center;
-	  margin-top: 0;
-	  font-size: 33px;
-	  color: #F09254;
-	}
-	.tnyr-logo-container {
-	  margin: auto;
-	}
-	.tnyr-logo {
-	  width: 9%;
-	  height: auto;
-	  margin-top: 15px;
-	  margin-left: 25%;
-	  float: left;
-	}
-	.tnyr-info-container {
-	  padding-top: 35px;
-	  padding-left: 15px;
-	  padding-bottom: 50px;
-	  display: inline-table;
-	}
-	.tnyr-info {
-	  font-size: 25px;
-	}
-	.rastreador {
-	  font-size: 150%;
-	}
-	.rastreador-container {
-	  margin-left: 40%;
-	  margin-right: 40%;
-	}
-	/*Tokenomics*/
-	.tokenomics {
-	  margin-bottom: 50px;
-	}
-	.tokenomics-container {
-	  margin-top: 2%;
-	  align-items: center;
-	}
-	.tokenomics-title {
-	  font-size: 33px;
-	  text-align: center;
-	  color: #F09254;
-	}
-	
-	.tokenomics-grafico {
-	  background-color: transparent;
-	  width: 55%;
-	  display: block;
-	  margin: auto;
-	}
 	
 	
-	.flecha-2 {
-	  display: block;
-	  margin: auto;
-	  width: 4%;
-	  height: auto;
-	  clear: both;
-	  margin-top: 10px;
-	}
+	
 	/*OUR TEAM*/
-	.team-h4-container {
-	  padding-bottom: 0;
-	  margin-bottom: 0;
-	  margin-top: 20px;
-	  padding-top: 50px;
-	}
+	
 	.team-h4 {
 	  font-size: 33px;
 	  text-align: center;
-	  color: #F09254;
+	  color: #a01208;
 	}
 	.full-team {
 	  flex-wrap: wrap;
@@ -818,13 +538,6 @@ margin:auto;
 	  margin: 2px;
 	  text-align: center;
 	  font-size: medium;
-	}
-	.flecha-3 {
-		display: block;
-		margin: auto;
-		margin-bottom: 10px;
-	  width: 40px;
-	  transform: rotate(180deg);
 	}
 	/*imagenes*/
 	.img-container {
@@ -910,32 +623,7 @@ margin:auto;
 	  margin-top: 0px;
 	}
 	/*Frase*/
-	.frase {
-	  margin-top: 5%;
-	  font-size: 600%;
-	  flex-direction: column;
-	  margin-bottom: 0;
-	  line-height: 100px;
-	}
-	.frase2 {
-	  font-size: 600%;
-	  flex-direction: column;
-	  padding-top: 0;
-	}
-	.tiempo {
-	  font-size: 600%;
-	  flex-direction: column;
-	  margin-bottom: 0;
-	  color: #a01208;
-	}
-	.frase-inicial {
-	  margin-left: 60px;
-	  margin-right: 40px;
-	  
-	}
-	.flecha-0 {
-	  display: none;
-	}
+	
 	/*h2*/
 	.history-title {
 	  font-size: 35px;
@@ -947,94 +635,8 @@ margin:auto;
 	  margin-top: 5%;
 	  padding-top: 40px;
 	}
-	.h2-p {
-	  width: 80%;
-	  margin-left: 50px;
-	  margin-right: 50px;
-	  padding-right: 30px;
-	  padding-left: 30px;
-	  float: left;
-	  font-size: 19px;
-	  line-height: auto;
-	  text-align: justify;
-	}
-	.history-div {
-	  margin-top: 100px;
-	}
-	.img-history {
-	  width: 50%;
-	  height: auto;
-	  display: block;
-	  margin: auto;
-	}
-	/* BOTONES*/
-	.buttons-container {
-		margin-bottom:30px ;
-	  }
-	  .button-history {
-		display: block;
-		margin: auto;
-		width: 60%;
-		margin-top: 10px;
-		font-size: 25px;
-		border-radius: 10px;
-		border: solid black 2px;
-		overflow: hidden;
-	  }
-	  .button-history:hover{
-
-		border: solid #a01208 2px;
-	}
-	.flecha-1 {
-	  display: none;
-	}
-	/*TNYR*/
-	.tnyr {
-	  content: "";
-	  clear: both;
-	  display: table;
-	}
-	.tnyr-title-container {
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	}
-	.tnyr-title {
-	  margin-top: 40px;
-	  font-size: 35px;
-	  color: #F09254;
-	  padding: 3px;
-	  text-align: center;
-	}
-	.tnyr-logo-container {
-	  margin: auto;
-	  margin-top: 30px;
-	}
-	.tnyr-logo {
-	  width: 13%;
-	  height: auto;
-	  margin-top: 5px;
-	  margin-left: 25%;
-	  margin-bottom: 30px;
-	  float: left;
-	}
-	.tnyr-info-container {
-	  padding-top: 35px;
-	  padding-left: 15px;
-	  padding-bottom: 50px;
-	  display: inline-table;
-	}
-	.tnyr-info {
-	  font-size: 25px;
-	}
-	.rastreador {
-	  font-size: 200%;
-	  display: flex;
-	  justify-content: center;
-	  margin-bottom: 10%;
-	  color: black;
-	  text-decoration: none;
-	}
+	
+	
 	/*Tokenomics*/
 	.tokenomics {
 	  margin-bottom: 50px;
@@ -1057,10 +659,6 @@ margin:auto;
 	  width: 80%;
 	}
 	
-	
-	.flecha-2 {
-	  display: none;
-	}
 	/*OUR TEAM*/
 	
 	.team-h4 {
@@ -1068,7 +666,7 @@ margin:auto;
 		padding-bottom: 10px;
 	  font-size: 35px;
 	  text-align: center;
-	  color: #F09254;
+	  color: #a01208;
 	}
 	.full-team {
 	  display: inline-flex;
@@ -1096,15 +694,6 @@ margin:auto;
 	  margin: 2px;
 	  text-align: center;
 	  font-size: medium;
-	}
-	.flecha-3 {
-	  display: none;
-	  margin: 0 0 0 auto;
-	  padding-left: 20px;
-	  width: 50px;
-	  margin-top: 0;
-	  margin-bottom: 50px;
-	  transform: rotate(180deg);
 	}
 	/*imagenes*/
 	.img-container {
@@ -1184,34 +773,10 @@ margin:auto;
 	  margin-top: 0px;
 	}
 	/*Frase*/
-	.frase {
-	  margin-top: 0;
-	  font-size: 550%;
-	  flex-direction: column;
-	  float: top;
-	  margin-bottom: 0;
-	}
-	.frase2 {
-	  font-size: 550%;
-	  flex-direction: column;
-	  padding-top: 0;
-	}
-	.tiempo {
-	  font-size: 600%;
-	  flex-direction: column;
-	  margin-bottom: 0;
-	  color: #a01208;
-	}
-	.frase-inicial {
-	  margin-left: 10px;
-	  margin-top: 40px;
-	}
-	.flecha-0 {
-	  display: none;
-	}
+	
 	/*h2*/
 	.history-title {
-	  font-size: 300%;
+	  font-size: 250%;
 	  color: #F09254;
 	  text-align: center;
 	}
@@ -1219,129 +784,15 @@ margin:auto;
 	  margin-bottom: 8%;
 	  margin-top: 5%;
 	}
-	.h2-p {
-	  width: 100%;
-	  padding: 20px;
-	  font-size: 20px;
-	  line-height: auto;
-	  text-align: justify;
-	}
-	.history-div {
-	  margin-top: 100px;
-	}
-	.img-history {
-	  width: 55%;
-	  height: auto;
-	  display:block;
-	  margin:auto;
-	  margin-bottom: 30px;
-	}
-	/* BOTONES*/
 	
-	.button-history {
-	  width: 65%;
-	  height: auto;
-	  max-width: 200px;
-	  display: block;
-	  margin: auto;
-	  font-size: 150%;
-	  text-decoration: none;
-	  border-radius: 10px;
-	  border: solid black 2px;
-	  overflow: hidden;
-	}
-	.button-history:hover{
-
-		border: solid #a01208 2px;
-	}
 	
-	.flecha-1 {
-	  display: none;
-	}
-	/*TNYR*/
-	.tnyr {
-	  margin-top: 7%;
-	  content: "";
-	  clear: both;
-	  margin-top: 50px;
-	}
-	.tnyr-title-container {
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	}
-	.tnyr-title {
-	  margin-top: 0;
-	  font-size: 200%;
-	  color: #F09254;
-	  padding: 3px;
-	  text-align: center;
-	}
-	.tnyr-logo-container {
-	  margin: auto;
-	  display: block;
-	}
-	.tnyr-logo {
-	  width: 14%;
-	  height: auto;
-	  margin: auto;
-	  display: block;
-	}
-	.tnyr-info-container {
-		height: auto;
-		margin: auto;
-		margin-top:20px;
-	}
-	.tnyr-info {
-		text-align: center;
-	  font-size: 25px;
-	}
-	.rastreador {
-	  font-size: 200%;
-	  display: flex;
-	  justify-content: center;
-	  margin-bottom: 10%;
-	}
-	/*Tokenomics*/
-	.tokenomics {
-		clear: both;
-	  margin-bottom: 50px;
-	}
-	.tokenomics-container {
-	  margin-top: 2%;
-	  align-items: center;
-	  margin-bottom: 20px;
-	}
-	.tokenomics-title {
-	  font-size: 200%;
-	  text-align: center;
-	  color: #F09254;
-	}
-	.tokenomics-grafico-container {
-	  margin-right: 0;
-	  margin-left: 40px;
-	  margin: black solid 1px;
-	}
-	.tokenomics-grafico {
-	  background-color: transparent;
-	  width: 80%;
-	  float: left;
-	  margin-bottom: 30px;
-	}
-
-	.flecha-2 {
-	  display: none;
-	}
+	
 	/*OUR TEAM*/
-	.team-h4-container {
-	  padding-bottom: 0;
-	  margin-bottom: 0;
-	  margin-top: 20px;
-	}
+	
 	.team-h4 {
-	  font-size: 300%;
+	  font-size: 250%;
 	  text-align: center;
-	  color: #F09254;
+	  color: #a01208;
 	}
 	.full-team {
 	  flex-wrap: wrap;
@@ -1367,15 +818,6 @@ margin:auto;
 	  margin: 2px;
 	  text-align: center;
 	  font-size: medium;
-	}
-	.flecha-3 {
-	  margin: 0 0 0 auto;
-	  padding-left: 20px;
-	  width: 50px;
-	  float: right;
-	  margin-top: 0;
-	  margin-bottom: 50px;
-	  transform: rotate(180deg);
 	}
 	/*imagenes*/
 	.img-container {
