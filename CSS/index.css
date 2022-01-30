@@ -69,6 +69,7 @@
 		width:17%;
 		margin-left: 10px;
 	}
+	
 	/*lista*/
 	.ul-icons{
 		float: right;
@@ -160,16 +161,14 @@ width: 100%;
 	  }
 	
 	  .timeline {
-		white-space: nowrap;
 		overflow-x: hidden;
 		background-color: transparent;
 	  }
 	  
+	  
 	  .timeline ol {
 		font-size: 0;
-		width: 100vw;
-		padding: 250px 0;
-		transition: all 1s;
+		padding: 130px 0;
 	  }
 	  
 	  .timeline ol li {
@@ -177,8 +176,10 @@ width: 100%;
 		display: inline-block;
 		list-style-type: none;
 		width: 160px;
+		margin-left: 5%;
 		height: 3px;
-		background: #fff;
+		border-color: #a01208;
+		border-style: dashed ;
 	  }
 	  
 	  
@@ -204,7 +205,7 @@ width: 100%;
 		position: absolute;
 		left: calc(100% + 7px);
 		width: fit-content;
-		padding: 15px;
+		padding: 10px;
 		font-size: 1rem;
 		white-space: normal;
 		color: black;
@@ -246,7 +247,68 @@ width: 100%;
 		display: block;
 	  }
 	  
-	  
+	  .timeline-ps p{
+
+		background-color: white;
+		margin-top: 30px;
+		margin-left: 8%;
+		margin-right: 15%;
+		border-radius: 20px;
+		border: solid #a01208 4px;
+		text-align: justify;
+		padding: 5px;
+		font-size: 20px;
+	  }
+	  .timeline-ps b{
+		  
+		color: #a01208;
+		font-weight: normal;
+	  }
+
+	  /*TOKENOMICS*/
+	  .tnyr-img{
+		width: 70px;
+		margin-left: 70px;
+		vertical-align: bottom;
+
+	  }
+	  .tnyr{
+		  width: 200px;
+		  margin-left: 20px;
+	  }
+	  .tokenomics span{
+		  text-align: center;
+		background-color: white;
+		margin-left: 1%;
+		border-radius: 20px;
+		border: solid #a01208 4px;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 22px;
+	  }
+	  .tokenomics p{
+		background-color: white;
+		margin-top: 30px;
+		margin-left: 8%;
+		margin-right: 15%;
+		border-radius: 20px;
+		border: solid #a01208 4px;
+		text-align: justify;
+		padding: 5px;
+		font-size: 20px;
+	  }
+	  .forma-tokenomics{
+		  width: 15%;
+		  margin-left: 1%;
+	  }
+	  .grafica{
+		background-color: transparent;
+		width: 65%;
+		display: block;
+		margin: auto;
+	}
 	/*OUR TEAM*/
 	
 	.team-h4 {
@@ -259,26 +321,23 @@ width: 100%;
    .full-team{
 	   
 	  display: inline-flex;
-	  margin-left: 15%;
-	  flex-wrap:wrap;
+	  margin-left: 50px;
 	  
   }
   
 	.member-team {
-	  width: 25%;
+	  width: 20%;
 	  height: fit-content;
-	  border: thin silver solid;
-	  margin: 0.5em;
-	  padding: 0.5em;
+	  margin: 0.2em;
 	}
 	.name-team {
-	  font-size: 120%;
+	  font-size: 150%;
+	  overflow: hidden;
 	}
 	.img-team {
-	  width: 150px;
-	  height: 250px;
+	  width: 100px;
+	  height: 150px;
 	  align-content: center;
-	  border-radius: 10px;
 	}
 	.img-red-team{
 		width: 20px;
@@ -286,7 +345,7 @@ width: 100%;
 	div.member-team p {
 	  margin: 2px;
 	  text-align: center;
-	  font-size: medium;
+	  font-size: 85%;
 	}
 	/*imagenes*/
 	.img-container {
@@ -311,6 +370,46 @@ width: 100%;
 	.list-footer-li {
 	  text-decoration: none;
 	}
+  }
+  /*PARTNERS*/
+  h5{
+	padding-top: 50px;
+	font-size: 300%;
+	text-align: center;
+	color: #a01208;
+  }
+  .partners-container{
+	  margin-left:100px;
+	  margin-top: 20px;
+  }
+  .partner{
+	  margin: 10px;
+	  width: 180px;
+	  border:1px solid black;
+  }
+  /*FOOTER*/
+  footer{
+	  background-color: #a01208;
+	  
+  }
+  footer img{
+	  width: 200px;
+	  margin-left: 20px;
+  }
+  .newsletter{
+	  float: right;
+	  color: white;
+	  text-align: center;
+	  margin-top: 15px;
+  }
+  .newsletter input{
+	  width: 200px;
+	  margin: 0.5rem;
+	  border-radius: 10px;
+	  justify-content: center;
+	  border: 2px black solid;
+	  background-color: white;
+	  height: 30px;
   }
   
   /* Para 980px */
