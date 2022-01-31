@@ -173,9 +173,12 @@
 	  .timeline ol li:not(:first-child) {
 		margin-left: 14px;
 	  }
-	  
+	  .timeline ol li:not(:last-child)::after:hover{
+		  background: #a01208;
+	  }
 	  .timeline ol li:not(:last-child)::after {
 		content: '';
+		cursor: pointer;
 		position: absolute;
 		top: 50%;
 		left: 99%;
@@ -200,6 +203,7 @@
 	  
 	  .timeline ol li:nth-child(odd) div {
 		top: -16px;
+		cursor: pointer;
 		transform: translateY(-100%);
 	  }
 	    
@@ -223,6 +227,7 @@
 		padding: 5px;
 		font-size: 20px;
 	  }
+	  
 	  .timeline-ps b{
 		  
 		color: #a01208;
