@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="IMG/favicon.ico" type="image / x-icon" >
     <link rel="icon" href="IMG/favicon.ico" type="image / x-icon" >
 	<script src="JS/timeline.js"></script>
+	<script src="JS/teamSlider.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
   </head>
   <body>
@@ -180,6 +181,7 @@
       </A>
     </div>
     <div class="full-team">
+	  <input type="button" value="<<" onclick="scrollMembersToLeft()"></input>
       <div class="member-team">
         <p><img src="IMG/adrian-team.png" class="img-team" alt="Adrian Zamora, CEO de Tiny Restaurant">
           <br>
@@ -202,20 +204,21 @@
           <br>
          <img class="img-red-team" src="IMG/instagram.png">  <a href="https://www.instagram.com/yiisus.r/" target="_blank">Instagram</a>
       </div>
-      <div class="member-team">
+      <div class="member-team" style="display: none;">
         <p><img src="IMG/julio-team.png"class="img-team" alt="Julio Cesar. Diseñador de Tiny Restaurant" >
         <p><b class="name-team">Julio Cesar</b><br>Graphic Design Director
           <br>
           <br>
           <img class="img-red-team" src="IMG/instagram.png">  <a href="https://instagram.com/billy.moonshine/" target="_blank">Instagram</a>
       </div>
-      <div class="member-team">
+      <div class="member-team" style="display: none;">
         <p><img src="IMG/arnaldo-team.png" class="img-team" alt="Arnaldo Diaz, Director de marketing de Tiny Restaurant" >
         <p><b class="name-team">Arnaldo Dìaz</b><br>Marketing Director
           <br>
           <br>
           <img class="img-red-team" src="IMG/instagram.png">  <a href="https://instagram.com/without_sleeping" target="_blank">Instagram</a>
       </div>
+	  <input type="button" value=">>" onclick="scrollMembersToRight()"></input>
     </div>
     <h5>
       PARTNERS
