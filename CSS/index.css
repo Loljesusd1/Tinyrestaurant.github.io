@@ -80,6 +80,7 @@
 		text-align: center;
 	  margin-top: 10%;
 	  clear: both;
+	  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 	}
 	.frase-inicial b{
 		color: #a01208;
@@ -111,6 +112,7 @@
 	  font-size: 300%;
 	  color: #a01208;
 	  text-align: center;
+	  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 	}
 	.history-title-container {
 	  margin-bottom: 3%;
@@ -133,13 +135,14 @@
 	.utensilios-container{
 		margin-left: 90px;
 		margin-right: 90px;
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 	.utensilios-container img{
 	width: 100%;
 	}
 	/*sales phases*/
 	h3{
+		text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 		padding-top: 50px;
 		font-size: 300%;
 		text-align: center;
@@ -287,6 +290,7 @@
 	/*OUR TEAM*/
 	
 	.team-h4 {
+		text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 		padding-top: 50px;
 	  font-size: 300%;
 	  text-align: center;
@@ -349,6 +353,7 @@
   
   /*PARTNERS*/
   h5{
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 	padding-top: 50px;
 	font-size: 300%;
 	text-align: center;
