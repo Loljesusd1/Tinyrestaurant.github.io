@@ -90,12 +90,12 @@
 	  font-size: 80px;
 	}
 	.p-title{
-		background-color: white;
+		background-color: #EDBA6B;
+		box-shadow: 8px 12px 15px -1px rgba(0,0,0,0.54);
 		margin-top: 30px;
 		margin-left: 8%;
 		margin-right: 15%;
 		border-radius: 20px;
-		border: solid #a01208 4px;
 		text-align: center;
 		font-size: 30px;
 		padding: 5px;
@@ -117,13 +117,14 @@
 	  margin-top: 20px;
 	}
 	.h2-container{
-		background-color: white;
+		background-color: #EDBA6B;
+		box-shadow: 8px 12px 15px -1px rgba(0,0,0,0.54);
 		margin-left: 70px;
 		margin-right: 70px;
+		padding: 5px;
 		font-size: 25px;
 		border-radius: 20px;
 		text-align: center;
-		border: solid #a01208 4px;
 	}
 	.h2-p b{
 		color: #a01208;
@@ -213,18 +214,19 @@
 	  	  
 	  .timeline time {
 		display: block;
+		cursor: pointer;
 	  }
 	  
 	  .timeline-ps p{
 
-		background-color: white;
 		margin-top: 30px;
 		margin-left: 15%;
 		margin-right: 15%;
 		border-radius: 20px;
-		border: solid #a01208 4px;
+		background-color: #EDBA6B;
+		box-shadow: 8px 12px 15px -1px rgba(0,0,0,0.54);
 		text-align: justify;
-		padding: 5px;
+		padding: 10px;
 		font-size: 20px;
 	  }
 	  
@@ -246,11 +248,11 @@
 		  margin-left: 20px;
 	  }
 	  .tokenomics span{
-		  text-align: center;
-		background-color: white;
+		text-align: center;
+		background-color: #EDBA6B;
+		box-shadow: 8px 12px 15px -4px rgba(0,0,0,0.54);
 		margin-left: 1%;
 		border-radius: 20px;
-		border: solid #a01208 4px;
 		padding-left: 100px;
 		padding-right: 100px;
 		padding-top: 5px;
@@ -258,18 +260,22 @@
 		font-size: 22px;
 	  }
 	  .tokenomics p{
-		background-color: white;
+		background-color: #EDBA6B;
+		box-shadow: 8px 12px 15px -1px rgba(0,0,0,0.54);
 		margin-top: 30px;
-		margin-left: 8%;
-		margin-right: 15%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: 25px;
 		border-radius: 20px;
-		border: solid #a01208 4px;
 		text-align: justify;
-		padding: 5px;
+		padding: 10px;
+		width:788px;
+		height:66px;
 		font-size: 20px;
 	  }
 	  .forma-tokenomics{
 		  width: 15%;
+		  background-color: transparent;
 		  margin-left: 1%;
 	  }
 	  .grafica{
@@ -290,13 +296,22 @@
    .full-team{
 	   
 	  display: inline-flex;
-	  margin-left: 50px;
+	  margin-top: 3%;
+	  margin-left: 15%;
+	  width: 100%;
 	  
+  }
+  .flecha-scroller{
+	  width: 50px;
+	  height: 60px;
+	  margin-top: auto;
+	  margin-bottom:auto ;
   }
   
 	.member-team {
 	  width: 20%;
-	  height: fit-content;
+	  height: 30%;
+	  min-height: 261px;
 	  margin: 0.2em;
 	}
 	.name-team {
