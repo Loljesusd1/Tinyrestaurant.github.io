@@ -251,6 +251,8 @@
 		  margin-left: 20px;
 	  }
 	  .tokenomics span{
+		  position: relative;
+		  bottom: 20px;
 		text-align: center;
 		background-color: #EDBA6B;
 		box-shadow: 8px 12px 15px -4px rgba(0,0,0,0.54);
@@ -642,6 +644,8 @@
 
 	  .tnyr-img{
 		width: 70px;
+		position: relative;
+		top: 10px;
 		margin-left: 70px;
 		vertical-align: bottom;
 
@@ -651,13 +655,15 @@
 		  margin-left: 20px;
 	  }
 	  .tokenomics span{
+		  position: relative;
+		  bottom: 15px;
 		text-align: center;
 		background-color: #EDBA6B;
 		box-shadow: 8px 12px 15px -4px rgba(0,0,0,0.54);
 		margin-left: 1%;
 		border-radius: 20px;
-		padding-left: 70px;
-		padding-right: 70px;
+		padding-left: 60px;
+		padding-right: 60px;
 		padding-top: 5px;
 		padding-bottom: 5px;
 		font-size: 22px;
@@ -797,7 +803,7 @@
   
   /* Para 820px */
   
-  @media only screen and (max-width: 820px) and (min-width: 621px) {
+@media only screen and (max-width: 820px) and (min-width: 621px) {
 	/*General*/
 	* {
 	  
@@ -811,7 +817,7 @@
 		  background-color: transparent;
 	  }
 	  body{
-		  background-color: #808ae2;
+		  background-color: #f5debe;
 	  }
 	  html {
 		scroll-behavior: smooth;
@@ -898,7 +904,7 @@
 		  margin-right: 20%;
 		  border-radius: 20px;
 		  text-align: center;
-		  font-size: 27px;
+		  font-size: 24px;
 		  padding: 5px;
 		}
 		.p-title b{
@@ -925,7 +931,7 @@
 		  margin-left: 70px;
 		  margin-right: 70px;
 		  padding: 5px;
-		  font-size: 25px;
+		  font-size: 23px;
 		  border-radius: 20px;
 		  text-align: center;
 		}
@@ -966,7 +972,7 @@
 		  position: relative;
 		  display: inline-block;
 		  list-style-type: none;
-		  width: 120px;
+		  width: 87px;
 		  margin-left: 10%;
 		  height: 3px;
 		  border-color: #a01208;
@@ -1032,7 +1038,7 @@
 		  box-shadow: 8px 12px 15px -1px rgba(0,0,0,0.54);
 		  text-align: justify;
 		  padding: 10px;
-		  font-size: 20px;
+		  font-size: 18px;
 		}
 		
 		.timeline-ps b{
@@ -1042,26 +1048,29 @@
 		}
   
 		.tnyr-img{
-		  width: 70px;
-		  margin-left: 70px;
+		  width: 55px;
+		  margin-left: 5%;
 		  vertical-align: bottom;
   
 		}
+		
 		.tnyr{
-			width: 180px;
+			width: 150px;
 			margin-left: 20px;
 		}
 		.tokenomics span{
+			position: relative;
+			bottom: 10px;
 		  text-align: center;
 		  background-color: #EDBA6B;
 		  box-shadow: 8px 12px 15px -4px rgba(0,0,0,0.54);
 		  margin-left: 1%;
 		  border-radius: 20px;
-		  padding-left: 70px;
-		  padding-right: 70px;
+		  padding-left: 30px;
+		  padding-right: 30px;
 		  padding-top: 5px;
 		  padding-bottom: 5px;
-		  font-size: 22px;
+		  font-size: 20px;
 		}
 		.tokenomics p{
 		  background-color: #EDBA6B;
@@ -1073,13 +1082,12 @@
 		  border-radius: 20px;
 		  text-align: justify;
 		  padding: 10px;
-		  width:650px;
-		  height:86px;
+		  width:80%;
+		  height:95px;
 		  font-size: 20px;
 		}
 		.forma-tokenomics{
-			width: 15%;
-			background-color: transparent;
+			width: 17%;
 			margin-left: 1%;
 		}
 		.grafica{
@@ -1102,13 +1110,13 @@
 		 
 		display: inline-flex;
 		margin-top: 3%;
-		margin-left: 15%;
-		width: 100%;
+		margin-left: 12%;
+		width: 110%;
 		
 	}
 	.flecha-scroller{
-		width: 50px;
-		height: 60px;
+		width: 40px;
+		height: 50px;
 		margin-top: auto;
 		margin-bottom:auto ;
 	}
@@ -1120,12 +1128,12 @@
 		margin: 0.2em;
 	  }
 	  .name-team {
-		font-size: 150%;
+		font-size: 130%;
 		overflow: hidden;
 	  }
 	  .img-team {
-		width: 100px;
-		height: 150px;
+		width: 90px;
+		height: 140px;
 		align-content: center;
 	  }
 	  .img-red-team{
@@ -1134,7 +1142,7 @@
 	  div.member-team p {
 		margin: 2px;
 		text-align: center;
-		font-size: 85%;
+		font-size: 80%;
 	  }
 	  /*imagenes*/
 	  .img-container {
@@ -1161,13 +1169,12 @@
 	  color: #a01208;
 	}
 	.partners-container{
-		margin-left:70px;
-		margin-top: 20px;
+		margin:3% 12%;
 		align-content: space-around;
 	}
 	.partner{
 		margin: 10px;
-		width: 180px;
+		width: 130px;
 		border:1px solid black;
 	}
 	/*FOOTER*/
@@ -1176,7 +1183,7 @@
 		
 	}
 	footer img{
-		width: 200px;
+		width: 150px;
 		margin-left: 20px;
 	}
 	.newsletter{
@@ -1192,10 +1199,9 @@
 		justify-content: center;
 		border: 2px black solid;
 		background-color: white;
-		height: 30px;
+		height: 28px;
 	}
 	}
-	
   
   /* Para 620px */
   
